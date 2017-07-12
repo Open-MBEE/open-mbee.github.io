@@ -1,0 +1,2 @@
+The files provide SSL secured access to the public TWC server.
+1.	Copy and paste the two attached files, cert.pass and cert.jks, into your Magic Draw, or Cameo Systems Modeler, installation directory
