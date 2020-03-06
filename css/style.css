@@ -1,7 +1,16 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 75px;
   padding-bottom: 20px;
+}
+
+.top-menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav>li>a {
+  padding: 10px 6px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
