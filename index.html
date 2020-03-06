@@ -25,9 +25,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <style>
-    html,
+
     body {
-      height: 100%;
+      padding-top: 85px;
+    }
+
+    .top-menu {
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 
     .nav>li>a {
@@ -47,11 +52,9 @@
 </head>
 
 <body>
-
-  <div class="container">
-    <div class="header clearfix">
-      <nav>
-        <ul class="nav nav-pills pull-right">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <ul class="nav nav-pills pull-right top-menu">
           <li role="presentation" class="active"><a href="#">Home</a></li>
           <li role="presentation"><a href="pages/our-story.html">About</a></li>
           <li>
@@ -81,7 +84,7 @@
               <li role="presentation"><a href="pages/mission.html">Mission</a></li>
               <li role="presentation"><a href="pages/roadmap.html">Roadmap</a></li>
               <li role="presentation"><a href="pages/vision.html">Vision</a></li>
-              <li role="presentation"><a>---------------</a></li>
+              <li role="separator" class="divider"></li>
               <li role="presentation"><a href="https://facebook.com/openmbee/" target="_blank">Facebook</a></li>
               <li role="presentation"><a
                   href="https://calendar.google.com/calendar/embed?src=jbdo6r6v614cpl21ru4enlr6k8%40group.calendar.google.com"
@@ -124,10 +127,12 @@
             </ul>
           </li>
         </ul>
-      </nav>
-      <h3 class="text-muted">OpenMBEE</h3>
+       <h3 class="text-muted">OpenMBEE</h3>
     </div>
+  </nav>
 
+
+  <div class="container">
     <div class="jumbotron diagram">
       <small class="title"><b>bdd</b> [Package] OpenMBEE [ OpenMBEE Components ]</small>
       <div class="block">
