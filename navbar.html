@@ -1,76 +1,78 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <ul class="nav nav-pills pull-right top-menu">
-      <li role="presentation" id="home"><a href="index.html">Home</a></li>
-      <li role="presentation" id="about"><a href="our-story.html">About</a></li>
-      <li>
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
+  <a class="navbar-brand" href="#"><img id="navbar-icon" src="images/openmbee-logo.svg"/><span class="text-muted" id="navbar-title"></span></a>
+  <div class="navbar-collapse collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" role="presentation" id="home"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item" role="presentation" id="about"><a class="nav-link" href="our-story.html">About</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
            aria-expanded="false">Products <span class="caret"></span>
         </a>
-        <ul class="dropdown-menu">
-          <li role="presentation"><a href="cookbook.html">Cookbook</a></li>
-          <li role="presentation"><a href="docweb.html">DocWeb</a></li>
-          <li role="presentation"><a href="jupyter-mms.html">Jupyter-MMS</a></li>
-          <li role="presentation"><a href="mdk.html">MDK</a></li>
-          <li role="presentation"><a href="mms.html">MMS</a></li>
-          <li role="presentation"><a href="pma.html">PMA</a></li>
-          <li role="presentation"><a href="ve.html">VE</a></li>
-        </ul>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="cookbook.html">Cookbook</a>
+          <a class="dropdown-item" href="docweb.html">DocWeb</a>
+          <a class="dropdown-item" href="jupyter-mms.html">Jupyter-MMS</a>
+          <a class="dropdown-item" href="mdk.html">MDK</a>
+          <a class="dropdown-item" href="mms.html">MMS</a>
+          <a class="dropdown-item" href="pma.html">PMA</a>
+          <a class="dropdown-item" href="ve.html">VE</a>
+        </div>
       </li>
-      <li>
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
            aria-expanded="false">Community <span class="caret"></span>
         </a>
-        <ul class="dropdown-menu">
-          <li role="presentation"><a href="code-of-conduct.html">Code of Conduct</a></li>
-          <li role="presentation"><a href="governance.html">Governance</a></li>
-          <li role="presentation"><a href="impacts.html">Impacts</a></li>
-          <li role="presentation"><a href="leadership.html">Leadership</a></li>
-          <li role="presentation"><a href="licenses.html">Licenses</a></li>
-          <li role="presentation"><a href="mission.html">Mission</a></li>
-          <li role="presentation"><a href="roadmap.html">Roadmap</a></li>
-          <li role="presentation"><a href="vision.html">Vision</a></li>
-          <li role="separator" class="divider"></li>
-          <li role="presentation"><a href="https://facebook.com/openmbee/" target="_blank">Facebook</a></li>
-          <li role="presentation"><a
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="code-of-conduct.html">Code of Conduct</a>
+          <a class="dropdown-item" href="governance.html">Governance</a>
+          <a class="dropdown-item" href="impacts.html">Impacts</a>
+          <a class="dropdown-item" href="leadership.html">Leadership</a>
+          <a class="dropdown-item" href="licenses.html">Licenses</a>
+          <a class="dropdown-item" href="mission.html">Mission</a>
+          <a class="dropdown-item" href="roadmap.html">Roadmap</a>
+          <a class="dropdown-item" href="vision.html">Vision</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://facebook.com/openmbee/" target="_blank">Facebook</a>
+          <a  class="dropdown-item"
               href="https://calendar.google.com/calendar/embed?src=jbdo6r6v614cpl21ru4enlr6k8%40group.calendar.google.com"
-              target="_blank">Google Calendar</a></li>
-          <li role="presentation"><a href="https://groups.google.com/forum/#!forum/openmbee" target="_blank">Google Group</a></li>
-          <li role="presentation"><a href="https://www.omgwiki.org/MBSE/doku.php?id=mbse:ecosystems" target="_blank">INCOSE</a></li>
-          <li role="presentation"><a href="https://openmbee.slack.com" target="_blank">Slack</a></li>
-        </ul>
+              target="_blank">Google Calendar</a>
+          <a class="dropdown-item" href="https://groups.google.com/forum/#!forum/openmbee" target="_blank">Google Group</a>
+          <a class="dropdown-item" href="https://www.omgwiki.org/MBSE/doku.php?id=mbse:ecosystems" target="_blank">INCOSE</a>
+          <a class="dropdown-item" href="https://openmbee.slack.com" target="_blank">Slack</a>
+        </div>
       </li>
-      <li>
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
            aria-expanded="false">Events <span class="caret"></span>
         </a>
-        <ul class="dropdown-menu">
-          <li role="presentation"><a href="events.html">Overview</a></li>
-          <li role="presentation"><a href="https://www.incose.org/iw2020/home" target="_blank">INCOSE IW</a></li>
-          <li role="presentation"><a href="models2020.html">MODELS 2020</a></li>
-          <li role="presentation"><a href="https://www.omg.org/events/" target="_blank">OMG Technical Meeting</a></li>
-        </ul>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="events.html">Overview</a>
+          <a class="dropdown-item" href="https://www.incose.org/iw2020/home" target="_blank">INCOSE IW</a>
+          <a class="dropdown-item" href="models2020.html">MODELS 2020</a>
+          <a class="dropdown-item" href="https://www.omg.org/events/" target="_blank">OMG Technical Meeting</a>
+        </div>
       </li>
-      <li role="presentation" id="contribute"><a href="become-contributor.html" role="button">Contribute</a></li>
-      <li>
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+      <li class="nav-item" role="presentation" id="contribute"><a class="nav-link" href="become-contributor.html" role="button">Contribute</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
            aria-expanded="false">Resources <span class="caret"></span>
         </a>
-        <ul class="dropdown-menu">
-          <li role="presentation"><a href="https://bintray.com/openmbee" target="_blank">Bintray</a></li>
-          <li role="presentation"><a href="https://github.com/Open-MBEE" target="_blank">Github</a></li>
-          <li role="presentation"><a href="https://hub.docker.com/u/openmbee" target="_blank">Docker Hub</a></li>
-          <li role="presentation"><a
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="https://bintray.com/openmbee" target="_blank">Bintray</a>
+          <a class="dropdown-item" href="https://github.com/Open-MBEE" target="_blank">Github</a>
+          <a class="dropdown-item" href="https://hub.docker.com/u/openmbee" target="_blank">Docker Hub</a>
+          <a class="dropdown-item"
               href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/OpenMBEE-public-server-information" target="_blank">EngHub</a>
-          </li>
-          <li role="presentation"><a href="https://drive.google.com/drive/folders/1-0gZYOUMf-ht56co9OumzvWxhS2C90rC" target="_blank">Google Drive</a></li>
-          <li role="presentation"><a href="http://jira.openmbee.org" target="_blank">Issues</a></li>
-          <li role="presentation"><a
-              href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/OpenMBEE-documentation" target="_blank">User Guides</a></li>
-          <li role="presentation"><a href="https://mms.openmbee.org" target="_blank">View Editor</a></li>
-        </ul>
+          <a class="dropdown-item" href="https://drive.google.com/drive/folders/1-0gZYOUMf-ht56co9OumzvWxhS2C90rC" target="_blank">Google Drive</a>
+          <a class="dropdown-item" href="http://jira.openmbee.org" target="_blank">Issues</a>
+          <a class="dropdown-item"
+              href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/OpenMBEE-documentation" target="_blank">User Guides</a>
+          <a class="dropdown-item" href="https://mms.openmbee.org" target="_blank">View Editor</a>
+        </div>
       </li>
     </ul>
-    <img id="navbar-icon" src="images/openmbee-logo.svg"/><h3 class="text-muted" id="navbar-title"></h3>
   </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 </nav>
