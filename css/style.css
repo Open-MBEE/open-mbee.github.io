@@ -1,7 +1,30 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 75px; //account for navbar
   padding-bottom: 20px;
+}
+
+.top-menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav>li>a {
+  padding: 10px 10px;
+}
+
+#navbar-icon {
+  margin-top: 9px;
+  height: 50px;
+  float: left;
+}
+
+#navbar-title {
+
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
