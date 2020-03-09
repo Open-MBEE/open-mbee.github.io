@@ -1,6 +1,6 @@
 $('#nav-container').load('navbar.html', function() {
   var title = $('title').text().substring(11);
-  $('#nav-title').html(title);
+  $('#navbar-title').html(title);
   if (title == 'About') {
     $('#about').addClass('active');
   }
