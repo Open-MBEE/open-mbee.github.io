@@ -7,7 +7,4 @@ $('#nav-container').load('navbar.html', function() {
   if (title == 'Contribute') {
     $('#contribute').addClass('active');
   }
-  if (title.startsWith('Open')) {
-    $('#home').addClass('active');
-  }
 });
