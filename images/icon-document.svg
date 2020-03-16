@@ -1,0 +1,22 @@
+<svg width="241" height="315" viewBox="0 0 241 315" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="document">
+<g id="FOLDY">
+<path id="Rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M4.11415 47.049C3.39922 47.7939 3 48.7863 3 49.8188L3 308C3 310.209 4.79086 312 7 312L234 312C236.209 312 238 310.209 238 308L238 7C238 4.79086 236.209 3 234 3L48.0971 3C47.0078 3 45.9656 3.44428 45.2112 4.23019L4.11415 47.049Z" fill="white" stroke="#9DA1A9" stroke-width="5"/>
+<g id="Rectangle 13 Copy 3">
+<path id="Rectangle 13 Copy 2" d="M50 15L50 42.6704C50 46.4274 46.1374 49.473 41.3726 49.473L5 49.473" stroke="#9DA1A9" stroke-width="5" stroke-linecap="round"/>
+</g>
+</g>
+<path id="Rectangle 2 Copy 19" fill-rule="evenodd" clip-rule="evenodd" d="M131 102.5C131 99.4624 133.462 97 136.5 97H169.5C172.538 97 175 99.4624 175 102.5C175 105.538 172.538 108 169.5 108H136.5C133.462 108 131 105.538 131 102.5Z" fill="#C1C4CB"/>
+<path id="Rectangle 2 Copy 20" fill-rule="evenodd" clip-rule="evenodd" d="M131 79C131 76.2386 133.239 74 136 74H185C187.761 74 190 76.2386 190 79C190 81.7614 187.761 84 185 84H136C133.239 84 131 81.7614 131 79Z" fill="#C1C4CB"/>
+<path id="Rectangle 2 Copy 24" fill-rule="evenodd" clip-rule="evenodd" d="M56 163C56 160.239 58.2386 158 61 158H185C187.761 158 190 160.239 190 163C190 165.761 187.761 168 185 168H61C58.2386 168 56 165.761 56 163Z" fill="#C1C4CB"/>
+<path id="Rectangle 2 Copy 27" fill-rule="evenodd" clip-rule="evenodd" d="M56 240C56 237.239 58.2386 235 61 235H145C147.761 235 150 237.239 150 240C150 242.761 147.761 245 145 245H61C58.2386 245 56 242.761 56 240Z" fill="#C1C4CB"/>
+<path id="Rectangle 2 Copy 25" fill-rule="evenodd" clip-rule="evenodd" d="M56 185C56 182.239 58.2386 180 61 180H152C154.761 180 157 182.239 157 185C157 187.761 154.761 190 152 190H61C58.2386 190 56 187.761 56 185Z" fill="#C1C4CB"/>
+<rect id="Rectangle 2 Copy 26" x="56" y="136" width="134" height="10" rx="5" fill="#C1C4CB"/>
+<g id="Group 9">
+<rect id="Rectangle 2 Copy 23" x="54" y="51" width="57" height="57" rx="3.5" fill="#DFE1E4"/>
+<path id="Line" fill-rule="evenodd" clip-rule="evenodd" d="M54.3281 93.9119L73.0363 82.5107L90.282 88.3837L111 69V104C111 106.209 109.209 108 107 108H58C55.7909 108 54 106.209 54 104V94.076" fill="#C1C4CB"/>
+</g>
+<rect id="Rectangle 2 Copy 28" x="56" y="213" width="134" height="10" rx="5" fill="#C1C4CB"/>
+<rect id="Rectangle 4 Copy 25" x="131" y="51" width="47" height="11" rx="5.5" fill="#6499F5"/>
+</g>
+</svg>

@@ -18,3 +18,7 @@ body {
 .tab-pane {
   padding-top: 1rem;
 }
+
+.img-sm{
+	height: 100px;
+}

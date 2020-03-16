@@ -30,8 +30,16 @@
 
 <body>
   <div id="nav-container"></div>
-  <div class="jumbotron">
-      <h1>Connected information, connected engineers, connected world</h1> 
+  <div class="jumbotron mb-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1 class="display-4 font-weight-bold">Connected engineering information for a connected world</h1> 
+        <span>OpenMBEE (Open Model Based Engineering Environment) is an open source collaborative engineering system. It enables engineers to work in the language of their choice and easily share and document their work across other tools.</span>
+      </div>
+      <div class="col-lg-4">
+        <img class="d-block" id="main-diagram" src="images/linked-data-document.svg"/> 
+      </div>
+    </div>
   </div>
 
   <div class="container">
@@ -53,13 +61,12 @@
 
     <h1 class="text-muted d-none" id="navbar-title"></h1>
 
-    <p>
-      <img class="mx-auto d-block" id="main-diagram" src="images/linked-data-document.svg"/>
-    </p>
 
-    <section class="mb-5">
+    <section class="mb-5 pt-5">
+      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE Components</h2>
       <div class="row">
         <div class="col-lg-4">
+          <img class="img-sm pb-3" src="images/icon-spacecraft.svg">
           <h4>Model Development Kit</h4>
           <p>MDKs are tool-specific integrations that's
             primary purposes are to sync models with the MMS and implement the DocGen language, which allows
@@ -74,12 +81,14 @@
         </div>
         <div class="col-lg-4">
 
+          <img class="img-sm pb-3" src="images/icon-db.svg">
           <h4><a target="_blank" href="https://github.com/Open-MBEE/mms">Model Management System</a></h4>
           <p>MMS is a version control system for structured data. It exposes model information through RESTful web
             services that can be used for CRUD operations, branching, and tagging of the model repository.</p>
 
         </div>
         <div class="col-lg-4">
+          <img class="img-sm pb-3" src="images/icon-document.svg">
           <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">View Editor</a></h4>
           <p>VE is designed to enable users to interact with SysML models within a web-based environment. It implements
             the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
@@ -88,8 +97,12 @@
       </div>
     </section>
 
-    <section class="mb-5">
+    <section class="mb-5 pt-5">
+      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE Projects</h2>
       <div class="row">
+        <div class="col-lg-4">
+          <img class="img-fluid" src="images/Top_view_of_tmt_complex.jpg">
+        </div>
         <div class="col-lg-8">
           <h4><a target="_blank" href="https://github.com/Open-MBEE/TMT-SysML-Model">Thirty Meter Telescope SysML Model</a></h4>
           <p>TMT is currently being developed by the <a target="_blank" href="http://www.tmt.org/">TMT Observatory
@@ -109,6 +122,9 @@
 
     <section class="mb-5">
       <div class="row">
+        <div class="col-lg-4">
+          <img class="img-fluid" src="images/splash-img-logos.png">
+        </div>
         <div class="col-lg-8">
           <h4><a target="_blank" href="https://github.com/Open-MBEE">Other OpenMBEE Projects</a></h4>
           <p>Other projects, such as tool-specific Model Development Kits for <a target="_blank"
