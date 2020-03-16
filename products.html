@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <title>OpenMBEE - Products</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="nav-container"></div>
+
+<div class="container">
+
+  <h1 class="text-muted" id="navbar-title"></h1>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs nav-fill" role="tablist">
+    <li class="nav-item"><a class="nav-link active" href="#cookbooks" aria-controls="cookbooks" role="tab" data-toggle="tab">Cookbooks</a></li>
+    <li class="nav-item"><a class="nav-link" href="#mdk" aria-controls="mdk" role="tab" data-toggle="tab">Model Development Kits</a></li>
+    <li class="nav-item"><a class="nav-link" href="#mms" aria-controls="mms" role="tab" data-toggle="tab">Model Management System</a></li>
+    <li class="nav-item"><a class="nav-link" href="#ve" aria-controls="ve" role="tab" data-toggle="tab">View Editor</a></li>
+    <li class="nav-item"><a class="nav-link" href="#docweb" aria-controls="docweb" role="tab" data-toggle="tab">DocWeb</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="cookbooks">
+      <h4>Models and Cookbooks</h4>
+      <p>Open MBEE has several open source modeling projects built within the Open MBEE Software</p>
+      <br>
+      <h4><a href="https://github.com/Open-MBEE/TMT-SysML-Model">Thirty Meter Telescope SysML Model</a></h4>
+      <p>TMT is currently being developed by the <a target="_blank" href="http://www.tmt.org/">TMT Observatory
+        Corporation</a>. The TMT SysML model provides an industrial scale application of OpenMBEE and system-level
+        behavior simulation. The main objective for the TMT related analysis is to provide state-dependent power
+        roll-ups for different operational scenarios and demonstrate that requirements are satisfied by the design as
+        well as mass roll-ups and duration analysis of the operational use cases. The model is built with an approach
+        to model-based systems analysis with SysML that is both rigorous and automated. The approach’s rigor is
+        established with a modeling method that is an extension of <a target="_blank" href="http://www.incose.org/">INCOSE</a>’s
+        Object Oriented Systems Engineering Method (OOSEM).</p>
+      <br>
+      <h4>Cookbooks</h4>
+      <p>TBD</p>
+      <br>
+      <h4>Model Libraries</h4>
+      <p>TBD</p>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="mdk">
+      <h4>Model Development Kits</h4>
+      <p> Open MBEE Model Development Kits are an integration concept for thierd party modeling tools.
+        Engineering has many Apps and Services for Modeling and Analysis. The MDK Architecture provides a
+        means to integrate with modeling and analysis tools uniting the best of both worlds.
+      </p>
+      <br>
+      <h4><a href="https://github.com/Open-MBEE/mdk">Magic Draw Model Development Kit</a></h4>
+      <p>The Magic Draw MDK is a plugin for <a target="_blank" href="https://www.nomagic.com/products/magicdraw">MagicDraw</a> that's
+        primary purposes are to sync models with the MMS and implement the DocGen language, which allows
+        modelers to dynamically generate documents in a model-based approach using the view and viewpoint concept.
+      </p>
+      <br>
+      <h4><a href="https://github.com/Open-MBEE">Other OpenMBEE MDKs</a></h4>
+      <p>Other projects, such as tool-specific Model Development Kits for
+        <a target="_blank" href="https://www.wolfram.com/mathematica/">Mathematica</a>,
+        <a target="_blank" href="https://www.mathworks.com/products/matlab.html">MATLAB</a>,
+        <a target="_blank" href="http://www.phoenix-int.com/modelcenter/integrate.php">ModelCenter</a>,
+        and a <a target="_blank" href="https://github.com/Open-MBEE/mdk-expression">AsciiMathML based expression editor</a>
+        can be found in the organization's GitHub page.
+      </p>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="mms">
+      <h4>Model Management System (MMS) and the Platform for Model Analysis (PMA)</h4>
+      <p> The MMS and PMA provide services for managing models and executing analysis behind connected document models.</p>
+      <br>
+      <h4><a href="https://github.com/Open-MBEE/mms">Model Management System</a></h4>
+      <p>MMS is a version control system for structured data. It exposes model information through RESTful web
+        services that can be used for CRUD operations, branching, and tagging of the model repository.
+        This heart of the MMS is the View Service which supports the transclusion features of Views. The MMS also
+        provides web services for storing and searching Jupyter Lab notebooks.
+      </p>
+      <br>
+      <h4> Platform for Model Analysis</h4>
+      <p>TBD</p>
+      <br>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="ve">
+      <h4><a href="https://github.com/Open-MBEE/ve">View Editor</a></h4>
+      <p>VE is designed to enable users to interact with SysML models within a web-based environment. It implements
+        the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
+        and Views.
+      </p>
+      <br>
+      <h4><a href="https://github.com/Open-MBEE">Jupyter Modeling Client</a></h4>
+      <p>The Jupyter Modeling Client for MMS allows a dramatic expansion of the capabilites of View Creation.
+        The client allows seemless integration with the MMS along with collaborative Jupyter Modeling sessions.
+      </p>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="docweb">
+      <p></p>
+    </div>
+  </div>
+
+</div> <!-- /container -->
+
+<script src="js/nav.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
