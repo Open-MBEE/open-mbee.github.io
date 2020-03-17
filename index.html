@@ -31,13 +31,16 @@
 <body>
   <div id="nav-container"></div>
   <div class="jumbotron mb-5">
-    <div class="row">
-      <div class="col-lg-8">
-        <h1 class="display-4 font-weight-bold">Connected engineering information for a connected world</h1> 
-        <span>OpenMBEE (Open Model Based Engineering Environment) is an open source collaborative engineering system. It enables engineers to work in the language of their choice and easily share and document their work across other tools.</span>
-      </div>
-      <div class="col-lg-4">
-        <img class="d-block" id="main-diagram" src="images/linked-data-document.svg"/> 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="display-4 font-weight-bold">Connected engineering information for a connected world</h1> 
+          <span class="header-subtext text-muted">OpenMBEE (Open Model Based Engineering Environment) is an open source collaborative engineering system. It enables engineers to work in the language of their choice and easily share and document their work across other tools.</span>
+        </div>
+        <div class="col-lg-4">
+          <img class="d-block mx-auto img-fluid" src="images/linked-data-document-background.png"/> 
+          <span class="text-muted pt-3 d-block font-italic" style="position: absolute;right: 10px;bottom: 60px;">Edit once<br>Update everywhere</span>
+        </div>
       </div>
     </div>
   </div>
@@ -65,8 +68,8 @@
     <section class="mb-5 pt-5">
       <h2 class="mb-5 text-center font-weight-bold">OpenMBEE Components</h2>
       <div class="row">
-        <div class="col-lg-4">
-          <img class="img-sm pb-3" src="images/icon-spacecraft.svg">
+        <div class="col-lg-3">
+          <img class="img-sm pb-3" src="images/icon-spacecraft.png">
           <h4>Model Development Kit</h4>
           <p>MDKs are tool-specific integrations that's
             primary purposes are to sync models with the MMS and implement the DocGen language, which allows
@@ -79,17 +82,25 @@
             </ul>          
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
 
-          <img class="img-sm pb-3" src="images/icon-db.svg">
+          <img class="img-sm pb-3" src="images/icon-db.png">
           <h4><a target="_blank" href="https://github.com/Open-MBEE/mms">Model Management System</a></h4>
           <p>MMS is a version control system for structured data. It exposes model information through RESTful web
             services that can be used for CRUD operations, branching, and tagging of the model repository.</p>
 
         </div>
-        <div class="col-lg-4">
-          <img class="img-sm pb-3" src="images/icon-document.svg">
+        <div class="col-lg-3">
+          <img class="img-sm pb-3" src="images/icon-document.png">
           <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">View Editor</a></h4>
+          <p>VE enables users to interact with SysML models within a web-based environment. It implements
+            the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
+            and Views.</p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="img-sm pb-3" src="images/icon-document.png">
+          <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">OpenMBEE Cookbook</a></h4>
           <p>VE is designed to enable users to interact with SysML models within a web-based environment. It implements
             the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
             and Views.</p>
@@ -98,7 +109,7 @@
     </section>
 
     <section class="mb-5 pt-5">
-      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE Projects</h2>
+      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE In the Wild</h2>
       <div class="row">
         <div class="col-lg-4">
           <img class="img-fluid" src="images/Top_view_of_tmt_complex.jpg">
@@ -120,23 +131,6 @@
     </section>
 
 
-    <section class="mb-5">
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-fluid" src="images/splash-img-logos.png">
-        </div>
-        <div class="col-lg-8">
-          <h4><a target="_blank" href="https://github.com/Open-MBEE">Other OpenMBEE Projects</a></h4>
-          <p>Other projects, such as tool-specific Model Development Kits for <a target="_blank"
-              href="https://www.nomagic.com/products/magicdraw">MagicDraw</a>, <a target="_blank"
-              href="https://www.wolfram.com/mathematica/">Mathematica</a>, <a target="_blank"
-              href="https://www.mathworks.com/products/matlab.html">MATLAB</a>, <a target="_blank"
-              href="http://www.phoenix-int.com/modelcenter/integrate.php">ModelCenter</a>, and a <a target="_blank"
-              href="https://github.com/Open-MBEE/mdk-expression">AsciiMathML based expression editor</a> can be found in
-            the organization's GitHub page.</p>
-        </div>
-      </div>
-    </section>
 
   </div> <!-- /container -->
 
