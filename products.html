@@ -40,11 +40,10 @@
 <div class="container">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs nav-fill" role="tablist">
-    <li class="nav-item"><a class="nav-link active" href="#cookbooks" aria-controls="cookbooks" role="tab" data-toggle="tab">Cookbooks</a></li>
+    <li class="nav-item"><a class="nav-link active" href="#cookbooks" aria-controls="cookbooks" role="tab" data-toggle="tab">Models</a></li>
     <li class="nav-item"><a class="nav-link" href="#mdk" aria-controls="mdk" role="tab" data-toggle="tab">Model Development Kits</a></li>
     <li class="nav-item"><a class="nav-link" href="#mms" aria-controls="mms" role="tab" data-toggle="tab">Model Management System</a></li>
-    <li class="nav-item"><a class="nav-link" href="#ve" aria-controls="ve" role="tab" data-toggle="tab">View Editor</a></li>
-    <li class="nav-item"><a class="nav-link" href="#docweb" aria-controls="docweb" role="tab" data-toggle="tab">DocWeb</a></li>
+    <li class="nav-item"><a class="nav-link" href="#ve" aria-controls="ve" role="tab" data-toggle="tab">Jupyter and View Editor</a></li>
   </ul>
 
   <!-- Tab panes -->
@@ -53,7 +52,7 @@
       <h4>Models and Cookbooks</h4>
       <p>Open MBEE has several open source modeling projects built within the Open MBEE Software</p>
       <br>
-      <h4><a target="_blank" href="https://github.com/Open-MBEE/TMT-SysML-Model">Thirty Meter Telescope SysML Model</a></h4>
+      <h4><a target="_blank" href="https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-d94630c2-576c-4edd-a8cd-ae3ecd25d16c/master">Thirty Meter Telescope SysML Model</a></h4>
       <p>TMT is currently being developed by the <a target="_blank" href="http://www.tmt.org/">TMT Observatory
         Corporation</a>. The TMT SysML model provides an industrial scale application of OpenMBEE and system-level
         behavior simulation. The main objective for the TMT related analysis is to provide state-dependent power
@@ -64,10 +63,47 @@
         Object Oriented Systems Engineering Method (OOSEM).</p>
       <br>
       <h4>Cookbooks</h4>
-      <p>TBD</p>
+      <p>
+        Engineering cookbooks are a compendium for the engineer which captures best practices, lessons learned, and provides
+        guidance on how to use languages and tools to achieve a certain engineering task, such as “How-to Verify Requirements”.
+        The <a target="_blank" href="https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-ID_2_2_17_7_33_25_AM_3ccfaf88_159fe0d7ba9__7d4e_cae_tw_jpl_nasa_gov_127_0_0_1/master/document/_18_5_2_e64033a_1513276256458_934885_22190">OpenSE Cookbook</a>
+        is such a reference that is an open-sourced collection of patterns, procedures, and best practices
+        targeted for systems engineers who seek guidance on applying model-based and executable systems engineering using SysML [7].
+        Its content has emerged from the system level modeling effort on the European Framework Program 6 (FP6) and the
+        Thirty Meter Telescope. </p><p>
+        Application of the OpenSE Cookbook practices enables consistent delivery of engineered products using a well-defined modeling
+        approach called the Executable Systems Engineering Method (<a target="_blank" href="https://github.com/Open-MBEE/TMT-SysML-Model/blob/master/Presentations/SPIE_2016_Creating_Systems_Engineering_Products_With_Executable_Models_In_A_Model-Based_Engineering_Environment.docx">ESEM</a>),
+        which is a refinement of the Object Oriented Systems Engineering Method (OOSEM). </p><p>
+        ESEM introduces the next phase of system modeling emphasizing executable models to enhance
+        understanding, precision, and verification of requirements. </p><p>
+        The <a target="_blank" href="https://github.com/Open-MBEE/TMT-SysML-Model/blob/master/Presentations/OpenSE-Cookbook-Paper-SPIE-2018.pdf">OpenSE Cookbook</a> provides a consistent, comprehensive, detailed, and background-agnostic set of operational procedures to
+        guide practitioners through MBSE. Unlike existing SysML literature whose goal is to provide the foundations of descriptive
+        modeling to newcomers and bring forward the arguments in favor of MBSE, the OpenSE Cookbook represents an implementation of
+        what such literature often refers to as best practices or organization-specific procedures. It provides goal oriented guidance
+        for systems engineers explained by a set of combinable patterns. Systems engineering workflows drive each of the pattern
+        definitions, such as how to verify requirements, roll-up technical resources, and analysis.</p><p>
+        The OpenSE Cookbook demonstrates how to build and analyze system models using OpenMBEE as applied to educational examples as well as actual usages in the
+        TMT production model.</p><p>
+        The overall goal of the OpenSE Cookbook in conjunction with OpenMBEE is to commoditize the Executable Systems Engineering Method,
+        i.e. remove the cost and barriers to entry that allows for expanded innovation and broader operations driven by increased user
+        access and decreased costs, in order to foster the broadest adoption.</p><p>
+        The orginal version of the cookbook can be found <a target="_blank" href="http://mbse.gfse.de/documents/faq.html">here</a>. It was
+        created by the <a target="_blank" href="http://omgwiki.org/MBSE/doku.php?id=mbse:telescope">INCOSE Telescope Modeling Challenge Team</a>
+      </p>
       <br>
       <h4>Model Libraries</h4>
-      <p>TBD</p>
+      <p>
+       The OpenSE Cookbook is accompanied by the <a target="_blank" href="https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-6e50f60a-ee13-4ee7-bd3a-e39338890c2d/master/document/_18_0_6_bec02f9_1498838354230_843679_41313">OpenSE model library</a>
+       that provides model templates (e.g. to support ESEM), structural elements (e.g. for organizational charts), and behavioral elements to facilitate the authoring and
+       analysis of models following the described patterns.
+      </p>
+      <p>
+        A library of platform independent 
+        <a target="_blank" href="https://github.com/Open-MBEE/Comodo/tree/master/Models/Devices">re-usable behavioral models</a>
+        for different devices, such as lamps and motors, has been developed by the European Southern Observatory (ESO) to build 
+        Telescope and Instrument control and supervisor applications for different <a target="_blank" href="https://github.com/Open-MBEE/Comodo/blob/master/docs/OpenSourceBehaviouralModels.pptx">
+        software platforms</a>.
+      </p>
     </div>
 
     <div role="tabpanel" class="tab-pane" id="mdk">
@@ -94,36 +130,45 @@
     </div>
 
     <div role="tabpanel" class="tab-pane" id="mms">
-      <h4>Model Management System (MMS) and the Platform for Model Analysis (PMA)</h4>
-      <p> The MMS and PMA provide services for managing models and executing analysis behind connected document models.</p>
-      <br>
       <h4><a target="_blank" href="https://github.com/Open-MBEE/mms">Model Management System</a></h4>
-      <p>MMS is a version control system for structured data. It exposes model information through RESTful web
+      <p>The Model Management System (MMS) provide services for managing models and is a version control system for structured data. It exposes model information through RESTful web
         services that can be used for CRUD operations, branching, and tagging of the model repository.
         This heart of the MMS is the View Service which supports the transclusion features of Views. The MMS also
         provides web services for storing and searching Jupyter Lab notebooks.
       </p>
-      <br>
-      <h4> Platform for Model Analysis</h4>
-      <p>TBD</p>
+      <p><a target="_blank" href="https://mms.openmbee.org/alfresco/mms/index.html">API Documentation</a></p>
+      <p><a target="_blank" href="https://mms.openmbee.org/alfresco/mms/swagger-ui/index.html">Swagger-UI</a> (use openmbeeguest/guest for readonly access)</p>
+      <p><a target="_blank" href="https://github.com/Open-MBEE/mms">Github Repository</a></p>
+      <p><a target="_blank" href="https://openmbee.atlassian.net/browse/MMS">JIRA Issues</a></p>
       <br>
     </div>
 
     <div role="tabpanel" class="tab-pane" id="ve">
       <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">View Editor</a></h4>
-      <p>VE is designed to enable users to interact with SysML models within a web-based environment. It implements
+      <p>VE is designed to enable users to interact with models within a web-based environment. It interacts with
         the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
-        and Views.
+        and Views. VE works in conjunction with the various Model Development Kits so data in different modeling tools
+        can be shown in a primarily narrative format on the web without losing the connection to the data sources.
+      </p>
+      <p><a target="_blank" href="https://github.com/Open-MBEE/ve/blob/develop/Documents/ViewEditorUserGuide.pdf">User Guide</a></p>
+      <p><a target="_blank" href="https://mms.openmbee.org">Public Instance</a> (use openmbeeguest/guest for readonly access)</p>
+      <p><a target="_blank" href="https://github.com/Open-MBEE/ve">Github Repository</a></p>
+      <p><a target="_blank" href="https://openmbee.atlassian.net/browse/VE">JIRA Issues</a></p>
+      <br>
+      <h4><a target="_blank" href="https://github.com/Open-MBEE/jupyter-mdk">Jupyter Modeling Client</a></h4>
+      <p>The Jupyter Modeling Client for MMS will allow a dramatic expansion of the capabilities of interactive View creation, by
+        allowing seamless integration with the MMS along with leveraging collaborative Jupyter sessions.
+      </p>
+      <p>It's the vision that by utilising MMS's element based storage and versioning scheme with Jupyter notebooks, and Python REST client
+          libraries that can be used within a notebook, they can provide a more interactive and powerful way to construct Views while keeping the
+          narrative oriented presentation of View Editor.
+      </p>
+      <br/>
+      <h4><a target="_blank" href="https://github.com/Open-MBEE/pma">Platform for Model Analysis</a></h4>
+      <p>The Platform for Model Analysis (PMA) serves as a way to automate various forms of analyses. Current
+        feature is automated regenerating document view instances that are created in MagicDraw.
       </p>
       <br>
-      <h4><a target="_blank" href="https://github.com/Open-MBEE">Jupyter Modeling Client</a></h4>
-      <p>The Jupyter Modeling Client for MMS allows a dramatic expansion of the capabilites of View Creation.
-        The client allows seemless integration with the MMS along with collaborative Jupyter Modeling sessions.
-      </p>
-    </div>
-
-    <div role="tabpanel" class="tab-pane" id="docweb">
-      <p></p>
     </div>
   </div>
 
