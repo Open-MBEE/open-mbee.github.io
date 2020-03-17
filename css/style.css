@@ -11,14 +11,41 @@ body {
   margin-bottom: 2rem;
 }
 
-#main-diagram {
-  width: 70%;
-}
-
 .tab-pane {
   padding-top: 1rem;
 }
 
 .img-sm{
-	height: 100px;
+  height: 100px;
+}
+
+.header-subtext{
+  line-height: 1.4em;
+  font-size: 1.4em;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #2b3540;
+}
+
+#navbar-title{
+  margin-top: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.page-title{
+  background-color: #f8f9fa !important;
 }
