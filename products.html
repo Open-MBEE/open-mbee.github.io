@@ -39,7 +39,7 @@
     <li class="nav-item"><a class="nav-link active" href="#cookbooks" aria-controls="cookbooks" role="tab" data-toggle="tab">Cookbooks</a></li>
     <li class="nav-item"><a class="nav-link" href="#mdk" aria-controls="mdk" role="tab" data-toggle="tab">Model Development Kits</a></li>
     <li class="nav-item"><a class="nav-link" href="#mms" aria-controls="mms" role="tab" data-toggle="tab">Model Management System</a></li>
-    <li class="nav-item"><a class="nav-link" href="#ve" aria-controls="ve" role="tab" data-toggle="tab">View Editor</a></li>
+    <li class="nav-item"><a class="nav-link" href="#ve" aria-controls="ve" role="tab" data-toggle="tab">Jupyter and View Editor</a></li>
     <li class="nav-item"><a class="nav-link" href="#docweb" aria-controls="docweb" role="tab" data-toggle="tab">DocWeb</a></li>
   </ul>
 
@@ -107,14 +107,24 @@
 
     <div role="tabpanel" class="tab-pane" id="ve">
       <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">View Editor</a></h4>
-      <p>VE is designed to enable users to interact with SysML models within a web-based environment. It implements
+      <p>VE is designed to enable users to interact with models within a web-based environment. It interacts with
         the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
-        and Views.
+        and Views. VE works in conjunction with the various Model Development Kits so data in different modeling tools
+        can be shown in a primarily narrative format on the web without losing the connection to the data sources.
       </p>
+      <p><a target="_blank" href="https://github.com/Open-MBEE/ve/blob/develop/Documents/ViewEditorUserGuide.pdf">User Guide</a></p>
+      <p><a target="_blank" href="https://mms.openmbee.org">Public Instance</a> (use openmbeeguest/guest for readonly access)</p>
+      <p><a target="_blank" href="https://github.com/Open-MBEE/ve">Github Repository</a></p>
+      <p><a target="_blank" href="https://openmbee.atlassian.net/browse/VE">JIRA Issues</a></p>
       <br>
-      <h4><a target="_blank" href="https://github.com/Open-MBEE">Jupyter Modeling Client</a></h4>
-      <p>The Jupyter Modeling Client for MMS allows a dramatic expansion of the capabilites of View Creation.
-        The client allows seemless integration with the MMS along with collaborative Jupyter Modeling sessions.
+      <h4><a target="_blank" href="https://github.com/Open-MBEE/jupyter-mdk">Jupyter Modeling Client</a></h4>
+      <p>The Jupyter Modeling Client for MMS will allow a dramatic expansion of the capabilities of interactive View creation, by
+        allowing seamless integration with the MMS along with leveraging collaborative Jupyter sessions.
+      </p>
+      <p>Note this client is in POC phase with initial code <a target="_blank" href="https://github.com/Open-MBEE/jupyter-mdk">here</a></p>
+      <p>It's the vision that by utilising MMS's element based storage and versioning scheme with Jupyter notebooks, and Python REST client
+          libraries that can be used within a notebook, they can provide a more interactive and powerful way to construct Views while keeping the
+          narrative oriented presentation of View Editor.
       </p>
     </div>
 
