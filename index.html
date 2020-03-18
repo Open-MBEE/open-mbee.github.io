@@ -30,74 +30,85 @@
 
 <body>
   <div id="nav-container"></div>
-  <div class="container">
-<!--
-    <div class="jumbotron diagram">
-      <small class="title"><b>bdd</b> [Package] OpenMBEE [ OpenMBEE Components ]</small>
-      <div class="block">
-        <small>&laquo;block&raquo;</small>
-        <h3>Open Model Based Engineering Environment</h3>
-        <div class="parts">
-          <small>parts</small>
-          <p><a href="https://github.com/Open-MBEE/mdk">mdk : Model Development Kit</a></p>
-          <p><a href="https://github.com/Open-MBEE/mms">mms : Model Management System</a></p>
-          <p><a href="https://github.com/Open-MBEE/ve">ve : View Editor</a></p>
+  <div class="jumbotron splash-background">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 pb-2">
+          <h1 class="font-weight-bold">Connected engineering information for a connected world</h1> 
+          <span class="header-subtext text-muted">OpenMBEE (Open Model Based Engineering Environment) is an open source collaborative engineering system. It enables engineers to work in the language of their choice and easily share and document their work across other tools.</span>
+        </div>
+        <div class="col-sm-8 col-lg-4">
+          <img class="d-block mx-auto img-fluid" src="images/linked-data-document.svg"/> 
+          <span class="text-muted pt-3 d-block font-italic text-center font-weight-bold">Edit once, Update everywhere</span>
         </div>
       </div>
     </div>
--->
-    <h1 class="text-muted" id="navbar-title"></h1>
-    <p>
-      <img class="mx-auto d-block" id="main-diagram" src="images/linked-data-document.svg"/>
-    </p>
+  </div>
 
-    <div class="row">
-      <div class="col-lg-6">
-        <h4>Model Development Kit</h4>
-        <p>MDKs are tool-specific integrations that's
-          primary purposes are to sync models with the MMS and implement the DocGen language, which allows
-          modelers to dynamically generate documents in a model-based approach using the view and viewpoint concept.
-          <ul>
-          <li><a target="_blank" href="https://github.com/Open-MBEE/mdk">Cameo Systems Modeler MDK</a></li>
-          <li><a target="_blank" href="https://github.com/Open-MBEE/jupyter-mdk">Jupyter MDK</a></li>
-          <li><a target="_blank" href="https://github.com/Open-MBEE/mms-mathematica-client">Mathematica MDK</a>
-          <li><a target="_blank" href="https://github.com/Open-MBEE/matlab-mdk">Matlab MDK</a></li>
-          </ul>          
-        </p>
+  <div class="container">
+    <h1 class="text-muted d-none" id="navbar-title"></h1>
 
-        <h4><a target="_blank" href="https://github.com/Open-MBEE/mms">Model Management System</a></h4>
-        <p>MMS is a version control system for structured data. It exposes model information through RESTful web
-          services that can be used for CRUD operations, branching, and tagging of the model repository.</p>
+    <section class="mb-5 pt-5">
+      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE Components</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <img class="img-sm pb-3" src="images/icon-spacecraft.svg">
+          <h4>Model Development Kit</h4>
+          <p><a href="products.html">MDKs</a> are tool-specific integrations that's
+            primary purposes are to sync models with the MMS and implement the DocGen language, which allows
+            modelers to dynamically generate documents in a model-based approach using the view and viewpoint concept.
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3">
 
-        <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">View Editor</a></h4>
-        <p>VE is designed to enable users to interact with SysML models within a web-based environment. It implements
-          the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
-          and Views.</p>
+          <img class="img-sm pb-3" src="images/icon-db.svg">
+          <h4><a target="_blank" href="https://github.com/Open-MBEE/mms">Model Management System</a></h4>
+          <p>MMS is a version control system for structured data. It exposes model information through RESTful web
+            services that can be used for CRUD operations, branching, and tagging of the model repository.</p>
+
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img class="img-sm pb-3" src="images/icon-document.svg">
+          <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">View Editor</a></h4>
+          <p>VE enables users to interact with SysML models within a web-based environment. It implements
+            the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
+            and Views.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <img class="img-sm pb-3" src="images/icon-cookbook.svg">
+          <h4><a target="_blank" href="https://github.com/Open-MBEE/ve">OpenMBEE Cookbook</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
       </div>
+    </section>
 
-      <div class="col-lg-6">
-        <h4><a target="_blank" href="https://github.com/Open-MBEE/TMT-SysML-Model">Thirty Meter Telescope SysML Model</a></h4>
-        <p>TMT is currently being developed by the <a target="_blank" href="http://www.tmt.org/">TMT Observatory
-            Corporation</a>. The TMT SysML model provides an industrial scale application of OpenMBEE and system-level
-          behavior simulation. The main objective for the TMT related analysis is to provide state-dependent power
-          roll-ups for different operational scenarios and demonstrate that requirements are satisfied by the design as
-          well as mass roll-ups and duration analysis of the operational use cases. The model is built with an approach
-          to model-based systems analysis with SysML that is both rigorous and automated. The approach’s rigor is
-          established with a modeling method that is an extension of <a target="_blank"
-            href="http://www.incose.org/">INCOSE</a>’s Object Oriented Systems Engineering Method (OOSEM).</p>
+    <section class="mb-5 pt-5">
+      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE In the Wild</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-fluid" src="images/Top_view_of_tmt_complex.jpg">
+        </div>
+        <div class="col-lg-8">
+          <h4><a target="_blank" href="https://github.com/Open-MBEE/TMT-SysML-Model">Thirty Meter Telescope SysML Model</a></h4>
+          <p>TMT is currently being developed by the <a target="_blank" href="http://www.tmt.org/">TMT Observatory
+              Corporation</a>. The TMT SysML model provides an industrial scale application of OpenMBEE and system-level
+            behavior simulation. The main objective for the TMT related analysis is to provide state-dependent power
+            roll-ups for different operational scenarios and demonstrate that requirements are satisfied by the design as
+            well as mass roll-ups and duration analysis of the operational use cases. The model is built with an approach
+            to model-based systems analysis with SysML that is both rigorous and automated. The approach’s rigor is
+            established with a modeling method that is an extension of <a target="_blank"
+              href="http://www.incose.org/">INCOSE</a>’s Object Oriented Systems Engineering Method (OOSEM).</p>
 
-        <h4><a target="_blank" href="https://github.com/Open-MBEE">Other OpenMBEE Projects</a></h4>
-        <p>Other projects, such as tool-specific Model Development Kits for <a target="_blank"
-            href="https://www.nomagic.com/products/magicdraw">MagicDraw</a>, <a target="_blank"
-            href="https://www.wolfram.com/mathematica/">Mathematica</a>, <a target="_blank"
-            href="https://www.mathworks.com/products/matlab.html">MATLAB</a>, <a target="_blank"
-            href="http://www.phoenix-int.com/modelcenter/integrate.php">ModelCenter</a>, and a <a target="_blank"
-            href="https://github.com/Open-MBEE/mdk-expression">AsciiMathML based expression editor</a> can be found in
-          the organization's GitHub page.</p>
+
+        </div>
       </div>
-    </div>
+    </section>
 
   </div> <!-- /container -->
+
+  <div id="footer-container"></div>
+
 
   <script src="js/nav.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"

@@ -6,15 +6,94 @@ body {
   height: 50px;
 }
 
-#navbar-title {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
+/*************/
+/* Layout*/
+/*************/
 
-#main-diagram {
-  width: 70%;
+#page-container{
+  min-height: 100vh;
 }
 
 .tab-pane {
   padding-top: 1rem;
 }
+
+/*************/
+/* Images*/
+/*************/
+
+.img-sm{
+  height: 120px;
+}
+
+/*************/
+/* Typography*/
+/*************/
+
+.header-subtext{
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #2b3641;
+  font-weight: 700;
+}
+
+/*OpenMBEE brand color darkened to accessiblity standards*/
+a{
+  color: #0E5ADD;
+}
+
+/*Splash page text gets smaller under desktop sizes*/
+@media (min-width: 992px) {
+  .jumbotron h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .header-subtext{
+    font-size: 1.5rem;
+  }
+}
+
+/**************/
+/* Splash page*/
+/**************/
+
+/*Network image*/
+.splash-background{
+  background-image: url("../images/network-bkgrnd.png");
+  background-position-y: -121px;
+  background-repeat: repeat-x;
+}
+
+/**************/
+/* Sub pages*/
+/**************/
+
+#navbar-title{
+  margin-top: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/*This is the bootstrap bg-light color*/
+.page-title{
+  background-color: #f8f9fa !important;
+}
+
+
+
