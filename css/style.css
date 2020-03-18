@@ -6,9 +6,12 @@ body {
   height: 50px;
 }
 
-#navbar-title {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+/*************/
+/* Layout*/
+/*************/
+
+#page-container{
+  min-height: 100vh;
 }
 
 .tab-pane {

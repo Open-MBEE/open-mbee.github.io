@@ -11,3 +11,7 @@ $('#nav-container').load('navbar.html', function() {
     $('#products').addClass('active');
   }
 });
+
+/*Add footer to each page, should reflect nav eventually*/
+$('#footer-container').load('footer.html', function() {
+});
