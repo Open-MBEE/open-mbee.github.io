@@ -8,7 +8,7 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <link rel="icon" href="images/favicon.ico">
 
-  <title>OpenMBEE - Contribute</title>
+  <title>OpenMBEE - {{ page.title }}</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -22,38 +22,17 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"></script>
 </head>
 
 <body>
-<div id="nav-container"></div>
+<div id="nav-container">{% include navbar.html %}</div>
 
-<div class="page-title">
-  <div class="container">
-    <h1 id="navbar-title"></h1>
-  </div>
-</div>
+{{ content }}
 
-<div id="page-container" class="container">
+<div id="footer-container">{% include footer.html %}</div>
 
-  <p>
-    OpenMBEE is a community of engineers who believe in the power of open tools and standards for education,
-    research, and modeling. We welcome contributions and contributors of all kinds - whether they come as
-    contributions to code, participation in the community, opening issues and pointing out bugs, or simply sharing your
-    work with your colleagues and friends.
-  </p>
-  <p><a target="_blank" href="https://github.com/Open-MBEE/">OpenMBEE's Github</a></p>
-  <p><a target="_blank" href="https://openmbee.atlassian.net/projects/">OpenMBEE's Jira</a></p>
-
-</div> <!-- /container -->
-
-
-<div id="footer-container"></div>
-
-<script src="js/nav.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
