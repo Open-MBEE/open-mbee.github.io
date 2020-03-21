@@ -2,6 +2,7 @@
 
 Open MBEE has several open source modeling projects built within the Open MBEE Software
 
+<br>
 
 #### Thirty Meter Telescope SysML Model
 
@@ -9,6 +10,7 @@ TMT is currently being developed by the [TMT Observatory Corporation](http://www
 
 The SysML model is accessible on twc.openmbee.org. The engineering document created from the model are accessible on [mms.openmbee.org](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-d94630c2-576c-4edd-a8cd-ae3ecd25d16c/master){:target="_blank"}
 
+<br>
 
 #### OpenMBEE Architectural Model
 
@@ -18,6 +20,7 @@ The model is used to generate a document to describe the architecture and anothe
 
 The OpenMBEE Architectural Model model can be downloaded from GitHub in the arch_model repository. The engineering documents created from the model are accessible on [mms.openmbee.org](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-f2f8bbae-a00b-4e02-bbe8-6d84fa3c219e/master){:target="_blank"}
 
+<br>
 
 #### Cookbooks
 
@@ -39,6 +42,7 @@ This [OpenSE Cookbook paper](https://github.com/Open-MBEE/TMT-SysML-Model/blob/m
 
 The orginal version of the cookbook can be found [here](http://mbse.gfse.de/documents/faq.html){:target="_blank"}. It was created by the [INCOSE Telescope Modeling Challenge Team](http://omgwiki.org/MBSE/doku.php?id=mbse:telescope){:target="_blank}
 
+<br>
 
 #### Model Libraries
 
