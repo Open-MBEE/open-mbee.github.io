@@ -4,11 +4,13 @@ Open MBEE Model Development Kits are an integration concept for third party mode
 
 * [MDK JIRA Issues](https://openmbee.atlassian.net/browse/MDK){:target="_blank"}
 
+<br>
 
 #### [Cameo Systems Modeler Model Development Kit](https://github.com/Open-MBEE/mdk){:target="_blank"}
 
 The [Cameo Systems Modeler MDK](https://github.com/Open-MBEE/mdk){:target="_blank"} is a plugin for [Cameo Systems Modeler](https://www.nomagic.com/products/cameo-systems-modeler){:target="_blank"} that's primary purposes are to sync models with the MMS and implement the [DocGen](https://github.com/Open-MBEE/mdk/tree/support/3.x/src/main/dist/manual){:target="_blank"} language, which allows modelers to dynamically generate documents in a model-based approach using the view and viewpoint concept.
 
+<br>
 
 #### [Other tool-specific OpenMBEE MDKs](https://github.com/Open-MBEE){:target="_blank"}
 
