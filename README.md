@@ -4,16 +4,12 @@ Github Pages is currently setup for master branch, any changes pushed to master 
 
 ### How to run locally
 
-Setting up a server to serve static files is enough
+see https://jekyllrb.com/
 
-Example for VSCode Editor
-- download VSCode https://code.visualstudio.com/
-- search and install the Live Server (by Ritwick Dey) extension
-- open the repo folder in VSCode
-- open index.html
-- click on "Go Live" at the bottom right of status bar
+### or do this
 
-Example for Intellij
-- install the Live Edit plugin
-- open index.html
-- click on a browser icon at the top right of the editor pane
+fork this repo, remove CNAME, enable github pages and check
+
+### more info
+
+https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
