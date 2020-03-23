@@ -27,4 +27,7 @@ Execubot architecture
    * https://github.com/Open-MBEE/jupyter-mdk
 
 Flexo architecture
-* SysMLv2 API compliant
+
+* MMSX - alpha
+   * SysMLv2 API compliant
+   * http://sysml2.intercax.com:9000/docs/
