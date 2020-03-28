@@ -4,6 +4,10 @@ title: Roadmap
 permalink: roadmap.html
 ---
 
+Open MBEE Roadmap
+
+The OpenMBEE Software Platform involves a number of integrations with software services. As a result, the combined features and archtiecture of the overall platform are represented by a letter which represents the Architectural Version and a number representing the release package of all the 
+
 Donbot architecture
 
 * MMS3 - production release
