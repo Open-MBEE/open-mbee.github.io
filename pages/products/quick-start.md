@@ -4,9 +4,9 @@ title: Quick Start
 permalink: quick-start.html
 ---
 
-## I. Setup MMS and VE on a single machine
+### I. Setup MMS and VE on a single machine
 
-### Prerequisites
+#### Prerequisites
 
 - familiarity of commandline 
 - a machine running CentOS 7.x with root access
@@ -129,5 +129,5 @@ After Alfresco is started, the API can be used to create orgs and projects.
 
 The ve login url would be [http://localhost:8080/alfresco/ve/mms.html](http://localhost:8080/alfresco/ve/mms.html){:target="_blank"}
 
-## II. Get Magicdraw and MDK
+### II. Get MDKs
 
