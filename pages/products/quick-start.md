@@ -59,8 +59,8 @@ permalink: quick-start.html
 
 ### 3. Installing Alfresco on Tomcat
 
-See: [Alfresco Documentation on Installation](https://docs.alfresco.com/5.1/concepts/master-ch-install.html)
-* To use the simple installer, get the installer from [here](https://community.alfresco.com/docs/DOC-6296-community-file-list-201605-ga/)
+See: [Alfresco Documentation on Installation](https://docs.alfresco.com/5.1/concepts/master-ch-install.html){:target="_blank"}
+* To use the simple installer, get the installer from [here](https://community.alfresco.com/docs/DOC-6296-community-file-list-201605-ga/){:target="_blank"}
 * The alfresco installer will handle all configurations that need to be set via command prompts, which simplifies installation.
 
 ### 4. Configure Postgresql
@@ -71,7 +71,7 @@ See: [Alfresco Documentation on Installation](https://docs.alfresco.com/5.1/conc
     * Create a `mms` database (will be referenced by pg.name)
 
 ### 5. Upload Schemas for ElasticSearch and Postgres
-1. download [mapping_template.json](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/repo-amp/src/main/resources/mapping_template.json), [mms_mappings.sh](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/repo-amp/src/main/resources/mms_mappings.sh) and [mms.sql](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/repo-amp/src/main/resources/mms.sql) and save all to the same directory
+1. download [mapping_template.json](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/repo-amp/src/main/resources/mapping_template.json){:target="_blank"}, [mms_mappings.sh](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/repo-amp/src/main/resources/mms_mappings.sh){:target="_blank"} and [mms.sql](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/repo-amp/src/main/resources/mms.sql){:target="_blank"} and save all to the same directory
 1.  Run `mms_mappings.sh`
 
     `bash mms_mappings.sh`
@@ -102,7 +102,7 @@ See: [Alfresco Documentation on Installation](https://docs.alfresco.com/5.1/conc
 1. You may want to run activemq as a service.
        
 ### 7. Installing MMS
-1. Grab the latest [mms-amp](https://github.com/Open-MBEE/mms/releases/download/3.4.2/mms-amp-3.4.2.amp) and [mms-share-amp](https://github.com/Open-MBEE/mms/releases/download/3.4.2/mms-share-amp-3.4.2.amp) from the [github release page](https://github.com/Open-MBEE/mms/releases):
+1. Grab the latest [mms-amp](https://github.com/Open-MBEE/mms/releases/download/3.4.2/mms-amp-3.4.2.amp){:target="_blank"} and [mms-share-amp](https://github.com/Open-MBEE/mms/releases/download/3.4.2/mms-share-amp-3.4.2.amp){:target="_blank"} from the [github release page](https://github.com/Open-MBEE/mms/releases){:target="_blank"}:
 
 1. Change to the tomcat webapps directory, where alfresco.war and share.war is located, then do
 
@@ -110,12 +110,12 @@ See: [Alfresco Documentation on Installation](https://docs.alfresco.com/5.1/conc
 
     `java -jar ../bin/alfresco-mmt.jar install $YOUR_PATH/mms-share-amp.amp share.war -force`
         
-1. Create and edit the mms.properties file in the $TOMCAT_HOME/shared/classes directory (You can copy [mms.properties.example](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/mms.properties.example) and update as appropriate)
+1. Create and edit the mms.properties file in the $TOMCAT_HOME/shared/classes directory (You can copy [mms.properties.example](https://raw.githubusercontent.com/Open-MBEE/mms/develop/mms-ent/mms.properties.example){:target="_blank"} and update as appropriate)
         
     * app.user and app.pass should be set to the alfresco admin user that you set up
     
 ### 8. Install VE
-1. Get the latest VE release [zip](https://github.com/Open-MBEE/ve/releases/download/3.6.1/ve-3.6.1.zip) from [github release page](https://github.com/Open-MBEE/ve/releases)
+1. Get the latest VE release [zip](https://github.com/Open-MBEE/ve/releases/download/3.6.1/ve-3.6.1.zip){:target="_blank"} from [github release page](https://github.com/Open-MBEE/ve/releases){:target="_blank"}
 
 1. unzip the release into the tomcat alfresco webapp directory as a folder called `ve`
     
@@ -127,7 +127,7 @@ See: [Alfresco Documentation on Installation](https://docs.alfresco.com/5.1/conc
 
 After Alfresco is started, the API can be used to create orgs and projects.
 
-The ve login url would be <http://localhost:8080/alfresco/ve/mms.html>
+The ve login url would be [http://localhost:8080/alfresco/ve/mms.html](http://localhost:8080/alfresco/ve/mms.html){:target="_blank"}
 
 # II. Get Magicdraw and MDK
 
