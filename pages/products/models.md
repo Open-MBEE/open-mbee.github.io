@@ -26,7 +26,7 @@ The OpenMBEE Architectural Model model can be downloaded from GitHub in the arch
 
 Engineering cookbooks are a compendium for the engineer which captures best practices, lessons learned, and provides guidance on how to use languages and tools to achieve a certain engineering task, such as “How-to Verify Requirements”.
         
-The [OpenSE Cookbook](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-ID_2_2_17_7_33_25_AM_3ccfaf88_159fe0d7ba9__7d4e_cae_tw_jpl_nasa_gov_127_0_0_1/master/document/_18_5_2_e64033a_1513276256458_934885_22190){:target="_blank"} is such a reference that is an open-sourced collection of patterns, procedures, and best practices targeted for systems engineers who seek guidance on applying model-based and executable systems engineering using SysML. Its content has emerged from the system level modeling effort on the European Framework Program 6 (FP6) and the Thirty Meter Telescope.
+The OpenSE Cookbook is an open-sourced collection of patterns, procedures, and best practices targeted for systems engineers who seek guidance on applying model-based and executable systems engineering using SysML. Its content has emerged from the system level modeling effort on the European Framework Program 6 (FP6) and the Thirty Meter Telescope.
 
 Application of the OpenSE Cookbook practices enables consistent delivery of engineered products using a well-defined modeling approach called the Executable Systems Engineering Method ([ESEM](https://github.com/Open-MBEE/TMT-SysML-Model/blob/master/Presentations/SPIE_2016_Creating_Systems_Engineering_Products_With_Executable_Models_In_A_Model-Based_Engineering_Environment.docx){:target="_blank"}), which is a refinement of the Object Oriented Systems Engineering Method (OOSEM).
 
@@ -37,6 +37,10 @@ The OpenSE Cookbook provides a consistent, comprehensive, detailed, and backgrou
 The OpenSE Cookbook demonstrates how to build and analyze system models using OpenMBEE as applied to educational examples as well as actual usages in the TMT production model.
 
 The overall goal of the OpenSE Cookbook in conjunction with OpenMBEE is to commoditize the Executable Systems Engineering Method, i.e. remove the cost and barriers to entry that allows for expanded innovation and broader operations driven by increased user access and decreased costs, in order to foster the broadest adoption.
+
+The OpenSE Cookbook is available
+   * [Online OpenSE Cookbook](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-ID_2_2_17_7_33_25_AM_3ccfaf88_159fe0d7ba9__7d4e_cae_tw_jpl_nasa_gov_127_0_0_1/master/document/_18_5_2_e64033a_1513276256458_934885_22190){:target="_blank"}
+   * [Offline OpenSE Cookbook](https://github.com/Open-MBEE/OpenSE-Cookbook){:target="_blank"}
 
 This [OpenSE Cookbook paper](https://github.com/Open-MBEE/TMT-SysML-Model/blob/master/Presentations/OpenSE-Cookbook-Paper-SPIE-2018.pdf){:target="_blank"} provides an in-depth overview.
 
