@@ -6,6 +6,10 @@ Github Pages is currently setup for master branch, any changes pushed to master 
 
 see https://jekyllrb.com/
 
+### build locally using docker
+
+https://github.com/envygeeks/jekyll-docker/blob/master/README.md
+
 ### or do this
 
 fork this repo, remove CNAME, enable github pages and check
