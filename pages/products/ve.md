@@ -12,14 +12,6 @@ VE is designed to enable users to interact with models within a web-based enviro
 
 <br>
 
-#### [Jupyter Modeling Client](https://github.com/Open-MBEE/jupyter-mdk){:target="_blank"}
-
-The Jupyter Modeling Client for MMS will allow a dramatic expansion of the capabilities of interactive View creation, by allowing seamless integration with the MMS along with leveraging collaborative Jupyter sessions.
-
-It's the vision that by utilising MMS's element based storage and versioning scheme with Jupyter notebooks, and Python REST client libraries that can be used within a notebook, they can provide a more interactive and powerful way to construct Views while keeping the narrative oriented presentation of View Editor.
-
-<br>
-
 #### [Platform for Model Analysis](https://github.com/Open-MBEE/pma){:target="_blank"}
 
 The Platform for Model Analysis (PMA) serves as a way to automate various forms of analyses. Current feature is automated regenerating document view instances that are created in MagicDraw.
