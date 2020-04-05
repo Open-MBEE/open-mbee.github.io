@@ -3,7 +3,7 @@ layout: default
 title: Roadmap
 permalink: roadmap.html
 ---
-Open MBEE Products
+OpenMBEE Products
 
 General Release
 Architechture Version: D (Codename Donbot)
@@ -16,7 +16,7 @@ Magic Draw MDK:
 Matlab MDK:
 Mathematica MDK:
 
-Open MBEE Roadmap
+OpenMBEE Roadmap
 
 Execubots
 Architecture: Version E (Codename Execubots)
@@ -39,7 +39,7 @@ Key Features:
 * Native Graph 
 * SysMLv2 API compliant (http://sysml2.intercax.com:9000/docs/)
    
- Open MBEE Versioning Roadmaps
+ OpenMBEE Versioning Roadmaps
 
 The OpenMBEE Software Platform involves a number of integrations with software services. As a result, the combined features and archtiecture of the overall platform are represented by a letter which represents the Architectural Version and a number representing the release package of all the 
 
