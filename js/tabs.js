@@ -1,6 +1,7 @@
 // LINK TO TABS
+var url = window.location.href;
+window.location.hash = "";
 function hashchanged() {
-  var url = window.location.href;
   if (url.indexOf("#") > 0){
   var activeTab = url.substring(url.indexOf("#") + 1);
     $('.nav[role="tablist"] a[href="#'+activeTab+'"]').tab('show');
@@ -8,7 +9,6 @@ function hashchanged() {
 }
 $(document).ready(() => {
   hashchanged();
-  var url = window.location.href;
   $('a[role="tab"]').on("click", function() {
     var newUrl;
     const hash = $(this).attr("href");
