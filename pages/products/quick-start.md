@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Quick Start
+title: Quick Start Guides
 permalink: quick-start.html
 ---
 * [Install MMS and VE](https://github.com/Open-MBEE/mms-alfresco/blob/develop/mms-ent/docs/quick-start.md){:target="_blank"}
