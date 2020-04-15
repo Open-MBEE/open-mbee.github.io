@@ -18,14 +18,29 @@ body {
   padding-top: 1rem;
 }
 
-.link-grid .col-md-4{
+/*Make buttons for the link grid so it looks clickable*/
+.link-grid a{
   padding: 16px;
   font-weight: bold;
+  padding: 6px; 
+  font-weight: bold;  
+  border: 1px solid #d3d3d3;  
+  border-radius: 3px; 
+  margin: 12px 0;
+  box-shadow: black;  
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+  display: inline-block;
+  width: 100%;
+}
+
+.link-grid a:hover{
+  background: #f7f7f7;
 }
 
 .link-grid img{
   height: 30px;
   display: inline-block;
+  padding-right: 4px;
 }
 
 
@@ -105,5 +120,15 @@ a{
 .page-title{
   background-color: #f8f9fa !important;
 }
+
+/**************/
+/* Tabs*/
+/**************/
+
+/*Selected link clearer*/
+.nav-tabs .nav-link.active{
+  font-weight: bold;
+}
+
 
 
