@@ -1,4 +1,4 @@
-#### Models and Cookbooks
+## Models and Cookbooks
 
 OpenMBEE has several open source modeling projects built within the OpenMBEE Software
 
