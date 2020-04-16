@@ -31,6 +31,7 @@ body {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
   display: inline-block;
   width: 100%;
+  cursor: pointer;
 }
 
 .link-grid a:hover{
@@ -43,6 +44,11 @@ body {
   padding-right: 4px;
 }
 
+@media (max-width: 768px){
+  .link-grid a{
+    margin: 6px 0;
+  }
+}
 
 /*************/
 /* Images*/
@@ -77,9 +83,19 @@ h6{
   font-weight: 700;
 }
 
+h2{
+  margin-top: 1em;
+}
+
 /*OpenMBEE brand color darkened to accessiblity standards*/
 a{
   color: #0E5ADD;
+}
+
+#navbar-title{
+  margin-top: 0;
+  padding: 1.5rem 0;
+  margin-bottom: 1.5rem;
 }
 
 /*Splash page text gets smaller under desktop sizes*/
@@ -91,6 +107,22 @@ a{
   }
   .header-subtext{
     font-size: 1.5rem;
+  }
+}
+
+/*Smaller fonts on smaller screens*/
+@media (max-width: 992px) {
+  h1{
+    font-size: 2rem;
+  }
+  #navbar-title{
+    padding: 1rem 0;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 1.25rem;
   }
 }
 
@@ -108,13 +140,6 @@ a{
 /**************/
 /* Sub pages*/
 /**************/
-
-#navbar-title{
-  margin-top: 0;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
-}
 
 /*This is the bootstrap bg-light color*/
 .page-title{

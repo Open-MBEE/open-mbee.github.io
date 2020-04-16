@@ -60,4 +60,4 @@ The Open MBEE Community utilizes a variety of resources available to Open Source
 
 <h2>OpenMBEE Pipeline</h2>
 
-<img class="img-fluid" src="images/pipeline.jpg">
+<img class="img-fluid" src="images/process-diagram.png" alt="diagram showing overall process using JIRA and circleci. The phases include design (using magicdraw, maplembse, cameo systems modeler, jupyter, and View Editor), development (using GitHub), testign, and operation (using jfrog bintray, python package index, jcenter, and anaconda cloud)">
