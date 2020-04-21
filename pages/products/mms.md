@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## [Model Management System](https://github.com/Open-MBEE/mms-alfresco){:target="_blank"}
 
 
