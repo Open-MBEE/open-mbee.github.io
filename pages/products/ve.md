@@ -1,6 +1,6 @@
-#### [View Editor](https://github.com/Open-MBEE/ve){:target="_blank"}
+## [View Editor](https://github.com/Open-MBEE/ve){:target="_blank"}
 
-VE is designed to enable users to interact with models within a web-based environment. It interacts with the MMS REST API to provide a web environment to create, read, and update model elements, including Documents and Views. VE works in conjunction with the various Model Development Kits so data in different modeling tools can be shown in a primarily narrative format on the web without losing the connection to the data sources.
+VE enables users to interact with models within a web-based environment. It interacts with the MMS REST API to provide a web environment to create, read, and update model elements, including Documents and Views. VE works in conjunction with the various Model Development Kits so data in different modeling tools can be shown in a primarily narrative format on the web without losing the connection to the data sources.
 
 [User Guide](https://github.com/Open-MBEE/ve/blob/develop/Documents/ViewEditorUserGuide.pdf){:target="_blank"}
 
