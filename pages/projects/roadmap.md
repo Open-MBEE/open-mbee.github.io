@@ -12,13 +12,13 @@ MMS: 3.4.2
 
 View Editor: 3.5.1
 
-Jupyter MDK:
+Jupyter MDK: 3.4.2.1
 
-Magic Draw MDK:
+Cameo MDK: 4.2.2
 
-Matlab MDK:
+MATLAB MDK: 3.4.2
 
-Mathematica MDK:
+Mathematica MDK: 3.4.2
 
 #### Architecture: Version E (Codename Execubots)
 
