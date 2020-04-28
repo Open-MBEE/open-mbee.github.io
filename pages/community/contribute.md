@@ -13,7 +13,7 @@ apply to all OpenMBEE projects.
 
 ### Reporting Bugs
 To report any bugs found in a project, please create a new ticket in the appropriate
-[OpenMBEE Jira](https://openmbee.atlassian.net/projects){:target="_blank"} project. It is important that youprovide as much information as possible to help us reproduce and fix the bug.
+[OpenMBEE Jira](https://openmbee.atlassian.net/projects){:target="_blank"} project. It is important that you provide as much information as possible to help us reproduce and fix the bug.
 The following information will be expected in all bug reports:
 
 - A detailed description of the issue
