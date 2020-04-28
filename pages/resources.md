@@ -9,7 +9,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
 <div class="row link-grid">
   <div class="col-xl-2 col-lg-4 col-md-6">
     <a target="_blank" href="https://groups.google.com/forum/#!forum/openmbee">
-      Google Groups
+      <img src="images/vendor-logos/google-groups.png">Google Group
     </a>
   </div>
   <div class="col-xl-2 col-lg-4 col-md-6">
