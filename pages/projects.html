@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Products
-permalink: products.html
+title: Projects
+permalink: projects.html
 ---
   <!-- Nav tabs -->
   <ul class="nav nav-tabs nav-fill" role="tablist">
@@ -14,22 +14,22 @@ permalink: products.html
   <!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="cookbooks">
-      {% capture models_include %}{% include_relative products/models.md %}{% endcapture %}
+      {% capture models_include %}{% include_relative projects/models.md %}{% endcapture %}
       {{ models_include | markdownify }}
     </div>
 
     <div role="tabpanel" class="tab-pane" id="mdk">
-      {% capture mdk_include %}{% include_relative products/mdk.md %}{% endcapture %}
+      {% capture mdk_include %}{% include_relative projects/mdk.md %}{% endcapture %}
       {{ mdk_include | markdownify }}
     </div>
 
     <div role="tabpanel" class="tab-pane" id="mms">
-      {% capture mms_include %}{% include_relative products/mms.md %}{% endcapture %}
+      {% capture mms_include %}{% include_relative projects/mms.md %}{% endcapture %}
       {{ mms_include | markdownify }}
     </div>
 
     <div role="tabpanel" class="tab-pane" id="ve">
-      {% capture ve_include %}{% include_relative products/ve.md %}{% endcapture %}
+      {% capture ve_include %}{% include_relative projects/ve.md %}{% endcapture %}
       {{ ve_include | markdownify }}
     </div>
   </div>
