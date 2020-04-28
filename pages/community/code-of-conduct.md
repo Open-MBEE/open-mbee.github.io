@@ -4,7 +4,7 @@ title: Code of Conduct
 permalink: code-of-conduct.html
 ---
 
-OpenMBEE participants and leadership both fully support a culture of professional courtious treatment and respect. 
+OpenMBEE participants and leadership both fully support a culture of professional courteous treatment and respect. 
 
 ## OpenMBEE Code of Conduct
 
