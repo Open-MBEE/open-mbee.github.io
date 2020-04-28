@@ -1,12 +1,25 @@
 ---
 layout: default
-title: Resources
-permalink: resources.html
+title: Participate
+permalink: participate.html
 ---
 
-The Open MBEE Community utilizes a variety of resources available to Open Source Projects. See how you can contribute!
+The Open MBEE Community utilizes a variety of resources available to open source projects. See how you can participate!
 
-<h2>OpenMBEE Links  </h2>
+<div class="row link-grid">
+  <div class="col-xl-2 col-lg-4 col-md-6">
+    <a target="_blank" href="https://groups.google.com/forum/#!forum/openmbee">
+      <img src="images/vendor-logos/google-groups.png">Google Group
+    </a>
+  </div>
+  <div class="col-xl-2 col-lg-4 col-md-6">
+    <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-do955pmo-yGBkdU2~aFYwb9ErIACUbw">
+      <img src="images/vendor-logos/slack.png">Slack
+    </a>
+  </div>
+</div>
+
+<h2>OpenMBEE Resouces</h2>
   <div class="row link-grid">
     <div class="col-xl-2 col-lg-4 col-md-6">
       <a href="https://bintray.com/openmbee" target="_blank">

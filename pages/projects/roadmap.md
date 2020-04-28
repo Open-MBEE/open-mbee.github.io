@@ -1,27 +1,31 @@
 ---
 layout: default
-title: Product Roadmap
+title: Project Roadmap
 permalink: roadmap.html
 ---
-OpenMBEE Products
 
-General Release
-Architechture Version: D (Codename Donbot)
-Roadmap: Feature Complete. Long term support.
+#### Architechture Version: D (Codename Donbot)
+
+**General Release - Feature complete, long term support.**
 
 MMS: 3.4.2
+
 View Editor: 3.5.1
+
 Jupyter MDK:
+
 Magic Draw MDK:
+
 Matlab MDK:
+
 Mathematica MDK:
 
-OpenMBEE Roadmap
+#### Architecture: Version E (Codename Execubots)
 
-Execubots
-Architecture: Version E (Codename Execubots)
 Release Status: E-0 in development
+
 Roadmap:
+
 Key features: 
 * Native Jupyter Notebook Collaboration 
 * Jupyter Modeling and View Editing 
@@ -31,15 +35,17 @@ Key features:
 * Wiki Publishing
 * ETL Pipeline
 
-Flexo 
-Architecture: Version F (Codename Flexo)
+#### Architecture: Version F (Codename Flexo)
+
 Release Status: Prototyping
-Roadmap: 
+
+Roadmap:
+
 Key Features:
 * Native Graph 
 * SysMLv2 API compliant (http://sysml2.intercax.com:9000/docs/)
    
- OpenMBEE Versioning Roadmaps
+#### OpenMBEE Versioning Roadmaps
 
 The OpenMBEE Software Platform involves a number of integrations with software services. As a result, the combined features and archtiecture of the overall platform are represented by a letter which represents the Architectural Version and a number representing the release package of all the 
 
