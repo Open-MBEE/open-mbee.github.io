@@ -19,7 +19,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
   </div>
 </div>
 
-<h2>OpenMBEE Resouces</h2>
+<h2>OpenMBEE Resources</h2>
   <div class="row link-grid">
     <div class="col-xl-2 col-lg-4 col-md-6">
       <a href="https://bintray.com/openmbee" target="_blank">
