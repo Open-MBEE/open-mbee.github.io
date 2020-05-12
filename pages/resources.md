@@ -13,7 +13,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
     </a>
   </div>
   <div class="col-xl-2 col-lg-4 col-md-6">
-    <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-do955pmo-yGBkdU2~aFYwb9ErIACUbw">
+    <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-ec86jsqc-3VJNYM4a5Drx0v1n70~C8A">
       <img src="images/vendor-logos/slack.png">Slack
     </a>
   </div>
