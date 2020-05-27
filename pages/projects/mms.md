@@ -14,3 +14,7 @@ The MMS also provides web services for storing and searching Jupyter Lab noteboo
 [Jira Issues](https://openmbee.atlassian.net/browse/MMS){:target="_blank"}
 
 [Java Client (Maven)](https://bintray.com/openmbee/maven/mms-java-client){:target="_blank"}
+
+[Python Client (Swagger generated)](https://pypi.org/project/mms-python-client/){:target="_blank"}
+
+[Python QOL Client](https://pypi.org/project/mms-python-adapter/){:target="_blank"}
