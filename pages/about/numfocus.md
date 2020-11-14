@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NumFOCUS Sponsorship
+title: NumFOCUS Project
 permalink: numfocus.html
 ---
 
