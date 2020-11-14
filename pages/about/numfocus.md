@@ -26,7 +26,7 @@ permalink: numfocus.html
 
 
 
-As of 2020 OpenMBEE is officially sponsored by [NumFOCUS](https://numfocus.org/).
+As of 2020 OpenMBEE is an official [NumFOCUS](https://numfocus.org/) project.
 
 NumFOCUS in a nonprofit organization dedicated to supporting and maintaining open source projects. NumFOCUS provides a stable, independent, and professional home for the open source projects powering contemporary scientific inquiry and business processes. They aim to ensure that funding and resources are available to sustain projects in the scientific data stack over the long haul.
 
