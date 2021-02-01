@@ -1,8 +1,8 @@
 Title,Author,Location,Type,Links
-Goal-oriented architecture for telescope control software,"L. Andolfato,ÊR. Karban",SPIE 2020,Paper,https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11452/114521C/Goal-oriented-architecture-for-telescope-control-software/10.1117/12.2575434.short?SSO=1
+Goal-oriented architecture for telescope control software,"L. Andolfato,ER. Karban",SPIE 2020,Paper,https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11452/114521C/Goal-oriented-architecture-for-telescope-control-software/10.1117/12.2575434.short?SSO=1
 Towards boosting the OpenMBEE platform with model-code consistency,"Robbert Jongeling, Antonio Cicchetti, Federico Ciccozzi, Jan Carlson",MODELS 2020,Paper,https://dl.acm.org/doi/10.1145/3417990.3421409
-"Breesse: Bridging EMF, Simulink and Stateflow for Model-Based Design of Safety-Critical Systems","AndrŽs Paz, Ghizlane El Boussaidi",MODELS 2020,Paper,https://dl.acm.org/doi/10.1145/3417990.3421408
-Model Checking as a Service: Towards Pragmatic Hidden Formal Methods,"Benedek Horv‡th, Bence Graics, çkos Hajdu, Zolt‡n Micskei, Vince Moln‡r, Istv‡n R‡th, Luigi Andolfato, Ivan Gomes, Robert Karban",MODELS 2020,Paper,https://dl.acm.org/doi/abs/10.1145/3417990.3421407
+"Breesse: Bridging EMF, Simulink and Stateflow for Model-Based Design of Safety-Critical Systems","Andres Paz, Ghizlane El Boussaidi",MODELS 2020,Paper,https://dl.acm.org/doi/10.1145/3417990.3421408
+Model Checking as a Service: Towards Pragmatic Hidden Formal Methods,"Benedek Horvath, Bence Graics, Akos Hajdu, Zoltan Micskei, Vince Molnar, Istvan Rath, Luigi Andolfato, Ivan Gomes, Robert Karban",MODELS 2020,Paper,https://dl.acm.org/doi/abs/10.1145/3417990.3421407
 Assisted authoring of model-based systems engineering documents,"Thomas Boyer Chammard, Blake Regalia, Robert Karban, Ivan Gomes",MODELS 2020,Paper,https://dl.acm.org/doi/10.1145/3417990.3421406
 JPL Systems Environment,Robert Karban,Software and Systems Modeling 2020,Journal,
 JPL Systems Environment,Robert Karban,"MODELS 2020, Industry Days",Presentation,
@@ -25,23 +25,3 @@ Using Executable SysML Models to Generate Systems Engineering Products,Robert Ka
 Five Years of Executable SysML With Cameo Simulation Toolkit A User Perspective - Insights and Outlook,Robert Karban,"NMWS 2015, Allen, TX",Presentation,https://github.com/Open-MBEE/TMT-SysML-Model/blob/master/Presentations/NMWS2015.pptx
 Model Based Document and Report Generation for Systems Engineering,"Christopher Delp, Doris Lam, Elyse Fosse, Cin-Young Lee","IEEE AC 2013, Big Sky, Montana",Paper,https://ieeexplore.ieee.org/document/6496926
 Dynamic Gate Product and Artifact Generation from System Models,"M.Â  Jackson,Â  C.Â  L.Â  Delp,Â  D.Â  Bindschadler,Â  M.Â  Sarrel, R.  Wollaeger, D. Lam","IEEE AC 2011, Big Sky, Montana",Paper,https://ieeexplore.ieee.org/document/5747541
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
