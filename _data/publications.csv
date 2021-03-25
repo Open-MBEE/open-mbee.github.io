@@ -1,4 +1,5 @@
 Title,Author,Location,Type,Links
+Analyzing the Operational Behavior of NFIRAOS LGS MCAO Acquisition on the Thirty Meter Telescope using SysML,"Gelys Trancho, Lianqi Wang, Sebastian J. I. Herzig, Robert Karban, Corinne Boyer, Glen Herriot, David Anderson, Brent Ellerbroek","AO4ELT 2017, Tenerifa, Spain",Paper,http://research.iac.es/congreso/AO4ELT5/pages/proceeding0168.html
 The JPL Systems Environment,"Robert Karban, Marie Piette, Eric Brower, Ivan Gomes, Emilee Bovre, Myra Lattimore, Blake Regalia, John Carr, Chad Harris, Christopher Delp, Cin-Young Lee",Jet Propulsion Laboratory,Paper,https://github.com/Open-MBEE/_OpenMBEE-Documentation/blob/master/The_JPL_Systems%20Environment_Aug-2020.pdf
 Goal-oriented architecture for telescope control software,"L. Andolfato,ER. Karban",SPIE 2020,Paper,https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11452/114521C/Goal-oriented-architecture-for-telescope-control-software/10.1117/12.2575434.short?SSO=1
 Towards boosting the OpenMBEE platform with model-code consistency,"Robbert Jongeling, Antonio Cicchetti, Federico Ciccozzi, Jan Carlson",MODELS 2020,Paper,https://dl.acm.org/doi/10.1145/3417990.3421409
