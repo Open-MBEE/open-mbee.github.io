@@ -68,6 +68,11 @@ The Open MBEE Community utilizes a variety of resources available to open source
         <img src="images/vendor-logos/youtube.png">YouTube
       </a>
   </div>
+  <div class="col-xl-2 col-lg-4 col-md-6">
+      <a href="https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/overview" target="_blank">
+        <img src="images/vendor-logos/user-guide.png">Confluence
+      </a>
+    </div>
 </div>
 
 
