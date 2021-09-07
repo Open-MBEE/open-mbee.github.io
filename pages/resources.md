@@ -22,8 +22,8 @@ The Open MBEE Community utilizes a variety of resources available to open source
 <h2>OpenMBEE Resources</h2>
   <div class="row link-grid">
     <div class="col-xl-2 col-lg-4 col-md-6">
-      <a href="https://bintray.com/openmbee" target="_blank">
-        <img src="images/vendor-logos/bintray.png">Bintray
+      <a href="https://search.maven.org/search?q=OpenMBEE" target="_blank">
+        <img src="images/vendor-logos/maven_central.png">Maven Central
       </a>
     </div>
     <div class="col-xl-2 col-lg-4 col-md-6">
