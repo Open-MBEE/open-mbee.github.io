@@ -4,7 +4,7 @@ title: Project Roadmap
 permalink: roadmap.html
 ---
 
-#### Architechture Version: D (Codename Donbot)
+#### Architecture Version: D (Codename Donbot)
 
 **General Release - Feature complete, long term support.**
 
