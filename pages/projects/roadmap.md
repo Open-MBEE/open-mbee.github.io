@@ -4,6 +4,16 @@ title: Project Roadmap
 permalink: roadmap.html
 ---
 
+#### Architecture Version: E (Codename Execubots)
+
+**General Release - Feature complete, long term support.**
+
+MMS: 4.0.7
+
+View Editor: 4.0.0
+
+Cameo MDK: 5.0.1
+
 #### Architecture Version: D (Codename Donbot)
 
 **General Release - Feature complete, long term support.**
