@@ -7,7 +7,7 @@ permalink: quick-start.html
 Step-by-step guides to get your OpenMBEE components installed and running quickly.
 
 ## Core OpenMBEE
-* [**Install Model Management System and View Editor**](https://github.com/Open-MBEE/mms-alfresco/blob/develop/mms-ent/docs/quick-start.md){:target="_blank"}
+* [**Install Model Management System**](https://github.com/Open-MBEE/mmsri/blob/develop/README.rst){:target="_blank"}
 
 * [**OpenSE Cookbook**](https://github.com/Open-MBEE/OpenSE-Cookbook/blob/master/README.md){:target="_blank"}
 
