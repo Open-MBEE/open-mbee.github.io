@@ -8,7 +8,7 @@ VE enables users to interact with models within a web-based environment. It inte
 
 [GitHub Repository](https://github.com/Open-MBEE/ve){:target="_blank"}
 
-[Jira Issues](https://openmbee.atlassian.net/browse/VE){:target="_blank"}
+[![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/ve.svg)](https://github.com/Open-MBEE/ve/issues){:target="_blank"}
 
 <br>
 
