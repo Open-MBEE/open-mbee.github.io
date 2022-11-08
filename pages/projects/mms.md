@@ -5,18 +5,18 @@ The Model Management System (MMS) provide services for managing models and is a 
 
 The MMS also provides web services for storing and searching Jupyter Lab notebooks.
 
-[Reference Implementation Documentation](https://mms-reference-implementation.readthedocs.io/en/latest/){:target="_blank"}
+[![Documentation Status](https://readthedocs.org/projects/mms-reference-implementation/badge/?version=latest)](http://mms-reference-implementation.readthedocs.io/?badge=latest){:target="_blank"} MMS Reference Implementation Documentation
 
-[API Documentation](https://model-management-system.readthedocs.io/en/latest/){:target="_blank"}
+[![Documentation Status](https://readthedocs.org/projects/model-management-system/badge/?version=latest)](http://model-management-system.readthedocs.io/?badge=latest){:target="_blank"} MMS Library Documentation
 
 [Swagger-UI](https://mms.openmbee.org/alfresco/mms/swagger-ui/index.html){:target="_blank"} (use openmbeeguest/guest for readonly access, version 3.X)
 
-[GitHub Repository](https://github.com/Open-MBEE/mms){:target="_blank"}
+[![GitHub release](https://img.shields.io/github/release/Open-MBEE/mms.svg)](https://github.com/Open-MBEE/mms){:target="_blank"}
 
-[Jira Issues](https://openmbee.atlassian.net/browse/MMS){:target="_blank"}
+[![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mms.svg)](https://github.com/Open-MBEE/mms/issues){:target="_blank"}
 
 [Java Client (Maven)](https://bintray.com/openmbee/maven/mms-java-client){:target="_blank"}
 
-[Python Client (Swagger generated)](https://pypi.org/project/mms-python-client/){:target="_blank"}
+[![PyPi version](https://badgen.net/pypi/v/mms-python-client/)](https://pypi.org/project/mms-python-client/){:target="_blank"}
 
 [Python QOL Client](https://pypi.org/project/mms-python-adapter/){:target="_blank"}

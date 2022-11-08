@@ -6,7 +6,7 @@ OpenMBEE Model Development Kits (MDKs) are an integration concept for third part
 
 #### [Jupyter Model Development Kit](https://github.com/Open-MBEE/jupyter-mdk){:target="_blank"}
 
-[![Download](https://img.shields.io/pypi/v/jupyter-mdk)](https://pypi.org/project/jupyter-mdk/) [![Jira](https://img.shields.io/badge/issues-jira-blue)](https://openmbee.atlassian.net/browse/JMDK)
+[![Download](https://img.shields.io/pypi/v/jupyter-mdk)](https://pypi.org/project/jupyter-mdk/) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/jupyter-mdk.svg)](https://github.com/Open-MBEE/jupyter-mdk/issues)
 
 The [Jupyter MDK](https://github.com/Open-MBEE/jupyter-mdk) will allow a dramatic expansion of the capabilities of interactive View creation, by allowing seamless integration with the MMS along with leveraging collaborative Jupyter sessions.
 
@@ -17,7 +17,7 @@ It's the vision that by utilising MMS's element based storage and versioning sch
 #### [Cameo Model Development Kit](https://github.com/Open-MBEE/mdk){:target="_blank"}
 
 
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Open-MBEE/mdk?label=download)](https://github.com/Open-MBEE/mdk/releases/latest) [![Jira](https://img.shields.io/badge/issues-jira-blue)](https://openmbee.atlassian.net/browse/MDK) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Open-MBEE/mdk.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Open-MBEE/mdk/context:java)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Open-MBEE/mdk?label=download)](https://github.com/Open-MBEE/mdk/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mdk.svg)](https://github.com/Open-MBEE/mdk/issues) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Open-MBEE/mdk.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Open-MBEE/mdk/context:java)
 
 The [Cameo MDK](https://github.com/Open-MBEE/mdk){:target="_blank"} is a plugin for [Cameo Systems Modeler](https://www.nomagic.com/products/cameo-systems-modeler){:target="_blank"} that's primary purposes are to sync models with the MMS and implement the [DocGen](https://github.com/Open-MBEE/mdk/tree/support/3.x/src/main/dist/manual){:target="_blank"} language, which allows modelers to dynamically generate documents in a model-based approach using the view and viewpoint concept.
 
@@ -29,20 +29,20 @@ These MDKs enable interactions with the MMS from engineering tools.
 
 * [Mathematica MDK](https://github.com/Open-MBEE/mathematica-mdk){:target="_blank"} for [Mathematica](https://www.wolfram.com/mathematica/){:target="_blank"}
 
-  [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Open-MBEE/mathematica-mdk?label=download)](https://github.com/Open-MBEE/mathematica-mdk/releases/latest) [![Jira](https://img.shields.io/badge/issues-jira-blue)](https://openmbee.atlassian.net/browse/MATHMDK)
+  [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Open-MBEE/mathematica-mdk?label=download)](https://github.com/Open-MBEE/mathematica-mdk/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mathematica-mdk.svg)](https://github.com/Open-MBEE/mathematica-mdk/issues)
 
 * [MATLAB MDK](https://github.com/Open-MBEE/matlab-mdk){:target="_blank"} for [MATLAB](https://www.mathworks.com/products/matlab.html){:target="_blank"}
 
-  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Open-MBEE/matlab-mdk?label=download)](https://github.com/Open-MBEE/matlab-mdk/releases/latest) [![Jira](https://img.shields.io/badge/issues-jira-blue)](https://openmbee.atlassian.net/browse/MTLBMDK)
+  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Open-MBEE/matlab-mdk?label=download)](https://github.com/Open-MBEE/matlab-mdk/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/matlab-mdk.svg)](https://github.com/Open-MBEE/matlab-mdk/issues)
 
 * [Cameo MDK Systems Reasoner](https://github.com/Open-MBEE/mdk-systems-reasoner){:target="_blank"} for [Cameo Systems Modeler](https://www.nomagic.com/products/cameo-systems-modeler){:target="_blank"}
 
-  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Open-MBEE/mdk-systems-reasoner?label=download)](https://github.com/Open-MBEE/mdk-systems-reasoner/releases/latest) [![Jira](https://img.shields.io/badge/issues-jira-blue)](https://openmbee.atlassian.net/browse/MDK) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk-systems-reasoner.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk-systems-reasoner) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Open-MBEE/mdk-systems-reasoner.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Open-MBEE/mdk-systems-reasoner/context:java)
+  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Open-MBEE/mdk-systems-reasoner?label=download)](https://github.com/Open-MBEE/mdk-systems-reasoner/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mdk.svg)](https://github.com/Open-MBEE/mdk/issues) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk-systems-reasoner.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk-systems-reasoner) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Open-MBEE/mdk-systems-reasoner.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Open-MBEE/mdk-systems-reasoner/context:java)
   
   Convenience [tooling](https://github.com/Open-MBEE/mdk/blob/develop/src/main/dist/manual/MDK%20Systems%20Reasoner%20UserGuide.pdf){:target="_blank"} for UML/SysML inheritance using the Block Specific Type pattern
 
 * [Cameo MDK Expression](https://github.com/Open-MBEE/mdk-expression){:target="_blank"} for [Cameo Systems Modeler](https://www.nomagic.com/products/cameo-systems-modeler){:target="_blank"}
 
-  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Open-MBEE/mdk-expression?label=download)](https://github.com/Open-MBEE/mdk-expression/releases/latest) [![Jira](https://img.shields.io/badge/issues-jira-blue)](https://openmbee.atlassian.net/browse/MDK) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk-expression.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk-expression)
+  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Open-MBEE/mdk-expression?label=download)](https://github.com/Open-MBEE/mdk-expression/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mdk.svg)](https://github.com/Open-MBEE/mdk/issues) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk-expression.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk-expression)
 
   [AsciiMathML](http://asciimath.org/){:target="_blank"} based expression editor
