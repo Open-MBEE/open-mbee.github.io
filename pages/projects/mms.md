@@ -11,12 +11,12 @@ The MMS also provides web services for storing and searching Jupyter Lab noteboo
 
 [Swagger-UI](https://mms.openmbee.org/alfresco/mms/swagger-ui/index.html){:target="_blank"} (use openmbeeguest/guest for readonly access, version 3.X)
 
-[![GitHub release](https://img.shields.io/github/release/Open-MBEE/mms.svg)](https://github.com/Open-MBEE/mms){:target="_blank"}
+[![GitHub release](https://img.shields.io/github/release/Open-MBEE/mms.svg)](https://github.com/Open-MBEE/mms){:target="_blank"} Source Code
 
-[![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mms.svg)](https://github.com/Open-MBEE/mms/issues){:target="_blank"}
+[![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mms.svg)](https://github.com/Open-MBEE/mms/issues){:target="_blank"} Github Issues
 
-[Java Client (Maven)](https://bintray.com/openmbee/maven/mms-java-client){:target="_blank"}
+[Java Client (Maven)](https://bintray.com/openmbee/maven/mms-java-client){:target="_blank"} MMS Java Client
 
-[![PyPi version](https://badgen.net/pypi/v/mms-python-client/)](https://pypi.org/project/mms-python-client/){:target="_blank"}
+[![PyPi version](https://badgen.net/pypi/v/mms-python-client/)](https://pypi.org/project/mms-python-client/){:target="_blank"} MMS Python Client
 
-[Python QOL Client](https://pypi.org/project/mms-python-adapter/){:target="_blank"}
+[Python QOL Client](https://pypi.org/project/mms-python-adapter/){:target="_blank"} (Outdated) QOL Python Helper
