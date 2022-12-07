@@ -15,7 +15,7 @@ Step-by-step guides to get your OpenMBEE components installed and running quickl
 ## Model Development Kits
 Depending on your project needs, add the following MDKs to your environment.
 
-* Add [**Jupyter**](https://jupyter.org/){:target="_blank"} with [**Jupyter MDK Quickstart**](https://github.com/Open-MBEE/jupyter-mdk#quickstart){:target="_blank"}.
+* Add [**Jupyter**](https://jupyter.org/){:target="_blank"} with [**mms-python-client Quickstart**](https://github.com/conda-forge/mms-python-client-feedstock){:target="_blank"}.
 
 
 
