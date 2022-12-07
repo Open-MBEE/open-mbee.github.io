@@ -9,7 +9,7 @@ The MMS also provides web services for storing and searching Jupyter Lab noteboo
 
 [![Documentation Status](https://readthedocs.org/projects/model-management-system/badge/?version=latest)](http://model-management-system.readthedocs.io/?badge=latest){:target="_blank"} MMS Library Documentation
 
-[Swagger-UI](https://mms.openmbee.org/alfresco/mms/swagger-ui/index.html){:target="_blank"} (use openmbeeguest/guest for readonly access, version 3.X)
+[Swagger-Doc](https://raw.githubusercontent.com/Open-MBEE/mmsri/develop/openapi/api-docs.yaml){:target="_blank"} For swaggger-ui, go to [swagger demo](https://petstore.swagger.io/){:target="_blank"} and put in the yaml link on top
 
 [![GitHub release](https://img.shields.io/github/release/Open-MBEE/mms.svg)](https://github.com/Open-MBEE/mms){:target="_blank"} Source Code
 
@@ -20,3 +20,5 @@ The MMS also provides web services for storing and searching Jupyter Lab noteboo
 [![PyPi version](https://badgen.net/pypi/v/mms-python-client/)](https://pypi.org/project/mms-python-client/){:target="_blank"} MMS Python Client
 
 [Python QOL Client](https://pypi.org/project/mms-python-adapter/){:target="_blank"} (Outdated) QOL Python Helper
+
+[Swagger-UI](https://mms.openmbee.org/alfresco/mms/swagger-ui/index.html){:target="_blank"} (use openmbeeguest/guest for readonly access, version 3.X)
