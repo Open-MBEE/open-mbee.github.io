@@ -4,20 +4,10 @@ OpenMBEE Model Development Kits (MDKs) are an integration concept for third part
 
 <br>
 
-#### [Jupyter Model Development Kit](https://github.com/Open-MBEE/jupyter-mdk){:target="_blank"}
-
-[![Download](https://img.shields.io/pypi/v/jupyter-mdk)](https://pypi.org/project/jupyter-mdk/) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/jupyter-mdk.svg)](https://github.com/Open-MBEE/jupyter-mdk/issues)
-
-The [Jupyter MDK](https://github.com/Open-MBEE/jupyter-mdk) will allow a dramatic expansion of the capabilities of interactive View creation, by allowing seamless integration with the MMS along with leveraging collaborative Jupyter sessions.
-
-It's the vision that by utilising MMS's element based storage and versioning scheme with Jupyter notebooks, and Python REST client libraries that can be used within a notebook, they can provide a more interactive and powerful way to construct Views while keeping the narrative oriented presentation of View Editor.
-
-<br>
-
 #### [Cameo Model Development Kit](https://github.com/Open-MBEE/mdk){:target="_blank"}
 
 
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Open-MBEE/mdk?label=download)](https://github.com/Open-MBEE/mdk/releases/latest) [![Documentation Status](https://readthedocs.org/projects/mdk/badge/?version=latest)](http://mdk.readthedocs.io/?badge=latest) MMS Reference Implementation Documentation [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mdk.svg)](https://github.com/Open-MBEE/mdk/issues) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Open-MBEE/mdk.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Open-MBEE/mdk/context:java)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Open-MBEE/mdk?label=download)](https://github.com/Open-MBEE/mdk/releases/latest) [![Documentation Status](https://readthedocs.org/projects/mdk/badge/?version=latest)](http://mdk.readthedocs.io/?badge=latest) [![GitHub issues](https://img.shields.io/github/issues/Open-MBEE/mdk.svg)](https://github.com/Open-MBEE/mdk/issues) [![CircleCI](https://circleci.com/gh/Open-MBEE/mdk.svg?style=shield)](https://circleci.com/gh/Open-MBEE/mdk) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Open-MBEE/mdk.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Open-MBEE/mdk/context:java)
 
 The [Cameo MDK](https://github.com/Open-MBEE/mdk){:target="_blank"} is a plugin for [Cameo Systems Modeler](https://www.nomagic.com/products/cameo-systems-modeler){:target="_blank"} that's primary purposes are to sync models with the MMS and implement the [DocGen](https://github.com/Open-MBEE/mdk/tree/support/3.x/src/main/dist/manual){:target="_blank"} language, which allows modelers to dynamically generate documents in a model-based approach using the view and viewpoint concept.
 
@@ -26,6 +16,10 @@ The [Cameo MDK](https://github.com/Open-MBEE/mdk){:target="_blank"} is a plugin 
 #### [Other OpenMBEE MDKs](https://github.com/Open-MBEE?q=mdk){:target="_blank"}
 
 These MDKs enable interactions with the MMS from engineering tools. 
+
+* [Jupyter](https://jupyter.org/){:target="_blank"}
+  
+  [![Conda](https://img.shields.io/conda/v/conda-forge/mms-python-client)](https://github.com/conda-forge/mms-python-client-feedstock){:target="_blank} for programmatic and api access to MMS data in Jupyter Notebooks
 
 * [Mathematica MDK](https://github.com/Open-MBEE/mathematica-mdk){:target="_blank"} for [Mathematica](https://www.wolfram.com/mathematica/){:target="_blank"}
 
