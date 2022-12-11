@@ -8,6 +8,8 @@ The OpenMBEE Strategy for hosting face-to-face engagements is to collaborate wit
 
 ## [INCOSE IW 2023 (International Council on Systems Engineering)](https://openmbee.atlassian.net/l/cp/uGKBGrFz)
 
+## [INCOSE IW 2022 (International Council on Systems Engineering)](https://openmbee.atlassian.net/l/cp/dL1amLeQ)
+
 ## [INCOSE IW 2021 (International Council on Systems Engineering)](incose2021.html)
 
 ## [Models 2020 Conference](models2020landing.html)
