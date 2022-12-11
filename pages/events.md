@@ -6,10 +6,9 @@ permalink: events.html
 
 The OpenMBEE Strategy for hosting face-to-face engagements is to collaborate with existing Engineering Conferences and Events that share an interest in the OpenMBEE Community and Software.
 
-## [INCOSE (International Council on Systems Engineering)](incose2021.html)
+## [INCOSE IW 2023 (International Council on Systems Engineering)](https://openmbee.atlassian.net/l/cp/uGKBGrFz)
 
-[INCOSE IW](https://www.incose.org/iw2021/home){:target="_blank"}
-
+## [INCOSE IW 2021 (International Council on Systems Engineering)](incose2021.html)
 
 ## [Models 2020 Conference](models2020landing.html)
 
