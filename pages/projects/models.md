@@ -6,9 +6,9 @@ OpenMBEE has several open source modeling projects built within the OpenMBEE Sof
 
 #### Thirty Meter Telescope SysML Model
 
-TMT is currently being developed by the [TMT Observatory Corporation](http://www.tmt.org){:target="_blank"}. The TMT SysML model provides an industrial scale application of OpenMBEE and system-level behavior simulation. The main objective for the TMT related analysis is to provide state-dependent power roll-ups for different operational scenarios and demonstrate that requirements are satisfied by the design as well as mass roll-ups and duration analysis of the operational use cases. The model is built with an approach to model-based systems analysis with SysML that is both rigorous and automated. The approach’s rigor is established with a modeling method that is an extension of [INCOSE](http://www.incose.org){:target="_blank"}’s Object Oriented Systems Engineering Method (OOSEM).
+TMT is currently being developed by the [TMT Observatory Corporation](http://www.tmt.org). The TMT SysML model provides an industrial scale application of OpenMBEE and system-level behavior simulation. The main objective for the TMT related analysis is to provide state-dependent power roll-ups for different operational scenarios and demonstrate that requirements are satisfied by the design as well as mass roll-ups and duration analysis of the operational use cases. The model is built with an approach to model-based systems analysis with SysML that is both rigorous and automated. The approach’s rigor is established with a modeling method that is an extension of [INCOSE](http://www.incose.org)’s Object Oriented Systems Engineering Method (OOSEM).
 
-The SysML model is accessible on [github](https://github.com/Open-MBEE/TMT-SysML-Model). The engineering documents created from the model are accessible on [mms.openmbee.org](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-d94630c2-576c-4edd-a8cd-ae3ecd25d16c/master){:target="_blank"}
+The SysML model is accessible on [github](https://github.com/Open-MBEE/TMT-SysML-Model). The engineering documents created from the model are accessible on [mms.openmbee.org](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-d94630c2-576c-4edd-a8cd-ae3ecd25d16c/master)
 
 <br>
 
@@ -18,7 +18,7 @@ The OpenMBEE group is developing an architectural model to link user needs, func
 
 The model is used to generate a document to describe the architecture and another to describe major components.
 
-The OpenMBEE Architectural Model model can be downloaded from GitHub in the arch_model repository. The engineering documents created from the model are accessible on [mms.openmbee.org](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-f2f8bbae-a00b-4e02-bbe8-6d84fa3c219e/master){:target="_blank"}
+The OpenMBEE Architectural Model model can be downloaded from GitHub in the arch_model repository. The engineering documents created from the model are accessible on [mms.openmbee.org](https://mms.openmbee.org/alfresco/mmsapp/mms.html#/projects/PROJECT-f2f8bbae-a00b-4e02-bbe8-6d84fa3c219e/master)
 
 <br>
 
