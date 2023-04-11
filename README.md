@@ -6,9 +6,17 @@ Github Pages is currently setup for master branch, any changes pushed to master 
 
 see https://jekyllrb.com/
 
-### build locally using docker
+### Build locally using docker
 
-https://github.com/envygeeks/jekyll-docker/blob/master/README.md
+```zsh
+docker run --rm \
+  --volume="$PWD:/srv/jekyll:Z" \
+  --publish 4000:4000 \
+  jekyll/jekyll:3.8 \
+  jekyll serve --trace
+```
+
+See [envygeeks/jekyll-docker/](https://github.com/envygeeks/jekyll-docker/blob/master/README.md) for canonical documentation.
 
 ### or do this
 
