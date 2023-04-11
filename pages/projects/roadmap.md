@@ -4,47 +4,6 @@ title: Project Roadmap
 permalink: roadmap.html
 ---
 
-#### Architecture Version: E (Codename Execubots)
-
-**General Release - Feature complete, long term support.**
-
-MMS: 4.0.7
-
-View Editor: 4.0.0
-
-Cameo MDK: 5.0.1
-
-#### Architecture Version: D (Codename Donbot)
-
-**General Release - Feature complete, long term support.**
-
-MMS: 3.4.2
-
-View Editor: 3.5.1
-
-Jupyter MDK: 3.4.2.1
-
-Cameo MDK: 4.2.2
-
-MATLAB MDK: 3.4.2
-
-Mathematica MDK: 3.4.2
-
-#### Architecture: Version E (Codename Execubots)
-
-Release Status: E-0 in development
-
-Roadmap:
-
-Key features: 
-* Native Jupyter Notebook Collaboration 
-* Jupyter Modeling and View Editing 
-* Modeling Cookbook Integration
-* Expanded Security Features
-* Robust View Service for full model-based views
-* Wiki Publishing
-* ETL Pipeline
-
 #### Architecture: Version F (Codename Flexo)
 
 Release Status: Prototyping
@@ -52,8 +11,42 @@ Release Status: Prototyping
 Roadmap:
 
 Key Features:
-* Native Graph 
+* Native Graph (RDF)
 * SysMLv2 API compliant (http://sysml2.intercax.com:9000/docs/)
+
+#### Architecture Version: E (Codename Execubots)
+
+**Cameo 2022x Compatibility - Testing**
+
+MMS: 4.1.0
+
+View Editor: 5.0.0
+
+Cameo MDK: 6.0.0
+
+**General Release - Feature complete, long term support. (Cameo 19.x Compatible)**
+
+MMS: 4.0.17
+
+View Editor: 4.0.2
+
+Cameo MDK: 5.1.3
+
+#### Architecture Version: D (Codename Donbot)
+
+**Deprecated**
+
+MMS: 3.4.2
+
+View Editor: 3.6.1
+
+Jupyter MDK: 3.4.2.1
+
+Cameo MDK: 4.5.1
+
+MATLAB MDK: 3.4.2
+
+Mathematica MDK: 3.4.2
    
 #### OpenMBEE Versioning Roadmaps
 
