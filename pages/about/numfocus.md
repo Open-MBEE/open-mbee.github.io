@@ -36,3 +36,4 @@ OpenMBEE is a [NumFOCUS Sponsored Project](https://numfocus.org/sponsored-projec
 
 Fiscally sponsored projects, such as OpenMBEE formally become part of NumFOCUS. NumFOCUS provides a number of services for fiscally sponsored projects, including financial administration, operational and legal support. Fiscally sponsored projects are also eligible to use NumFOCUS resources and infrastructure to help raise money for the project.
 
+[Donate to OpenMBEE!](https://numfocus.org/donate-to-openmbee)
