@@ -20,10 +20,3 @@ Depending on your project needs, add the following MDKs to your environment.
 
 
 * Add [**Cameo Systems Modeler**](https://www.nomagic.com/products/cameo-systems-modeler){:target="_blank"} with [**Cameo MDK Quickstart**](https://github.com/Open-MBEE/mdk#quickstart){:target="_blank"}.
-
-
-* Add [**Mathematica**](https://www.wolfram.com/mathematica/){:target="_blank"} with
-[**Mathematica MDK Quickstart**](https://github.com/Open-MBEE/mathematica-mdk#quickstart){:target="_blank"}.
-
-
-* Add [**MATLAB**](https://www.mathworks.com/products/matlab.html){:target="_blank"} with [**MATLAB MDK Quickstart**](https://github.com/Open-MBEE/matlab-mdk#quickstart){:target="_blank"}.
