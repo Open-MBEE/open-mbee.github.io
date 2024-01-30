@@ -8,13 +8,15 @@ The Flexo architectural version handels RDF data and is currently under developm
 
 For more details on the architectural version differences and links, see the [GitHub Open-MBEE Org page](https://github.com/Open-MBEE){:target="_blank"}
 
-### [Flexo Model Management System](https://github.com/Open-MBEE/flexo-mms-deployment){:target="_blank"}
+
+#### [Flexo Model Management System](https://github.com/Open-MBEE/flexo-mms-deployment){:target="_blank"}
 
 Flexo-MMS handles models as RDF graphs and exposes SparQL and Graph Store Protocol (GSP) endpoints for model update/load/query operations, as well as CRUD endpoints for management of RDF graphs (creating Orgs, Repos, Branches, etc).
 
 [![Documentation](https://readthedocs.org/projects/flexo-mms-deployment-guide/badge/?version=latest)](https://flexo-mms-deployment-guide.readthedocs.io/?badge=latest){:target="_blank"} Flexo-MMS Documentation
 
-### [Execubots Model Management System](https://github.com/Open-MBEE/exec-mmsri){:target="_blank"}
+
+#### [Execubots Model Management System](https://github.com/Open-MBEE/exec-mmsri){:target="_blank"}
 
 Execubots-MMS handels models as JSON documents and exposes model information through RESTful web services that can be used for CRUD operations, branching, and tagging of the model repository.
 
