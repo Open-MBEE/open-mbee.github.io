@@ -38,7 +38,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
     </div>
     <div class="col-xl-2 col-lg-4 col-md-6">
       <a href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/OpenMBEE-public-server-information" target="_blank">
-        <img src="images/vendor-logos/eng-hub.png">EngHub
+        <img src="images/vendor-logos/eng-hub.png">View Editor
       </a>
     </div>
     <div class="col-xl-2 col-lg-4 col-md-6">
