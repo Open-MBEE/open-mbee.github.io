@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Project Components
 permalink: projects.html
 ---
   <!-- Nav tabs -->
@@ -32,6 +32,10 @@ permalink: projects.html
     <div role="tabpanel" class="tab-pane" id="ve">
       {% capture ve_include %}{% include_relative projects/ve.md %}{% endcapture %}
       {{ ve_include | markdownify }}
+    </div>
+       <div role="tabpanel" class="tab-pane" id="ModelCM">
+      {% capture mdk_include %}{% include_relative projects/ModelCM.md %}{% endcapture %}
+      {{ mdk_include | markdownify }}
     </div>
 
     <div role="tabpanel" class="tab-pane" id="comodo">
