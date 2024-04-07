@@ -5,7 +5,7 @@ permalink: participate.html
 ---
 
 The Open MBEE Community utilizes a variety of resources available to open source projects. See how you can participate!
-
+<h2>OpenMBEE Community Resources</h2>
 <div class="row link-grid">
   <div class="col-xl-2 col-lg-4 col-md-6">
     <a target="_blank" href="https://groups.google.com/u/2/a/openmbee.org/g/community">
@@ -21,8 +21,9 @@ The Open MBEE Community utilizes a variety of resources available to open source
   
 </div>
 
-<div class="row link-grid">
 <h2>SysML Resources</h2>
+<div class="row link-grid">
+
    <div class="col-xl-2 col-lg-4 col-md-6">
     <a target="_blank" href="https://groups.google.com/u/2/a/openmbee.org/g/opensysml">
       <img src="images/vendor-logos/google-groups.png">Google Group
