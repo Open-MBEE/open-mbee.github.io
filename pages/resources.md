@@ -17,6 +17,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
       <img src="images/vendor-logos/google-groups.png">Google Group
     </a>
   </div>
+  <h3>SysML Resources</h3>
   <div class="col-xl-2 col-lg-4 col-md-6">
     <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-ec86jsqc-3VJNYM4a5Drx0v1n70~C8A">
       <img src="images/vendor-logos/slack.png">Slack
