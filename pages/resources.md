@@ -8,7 +8,12 @@ The Open MBEE Community utilizes a variety of resources available to open source
 
 <div class="row link-grid">
   <div class="col-xl-2 col-lg-4 col-md-6">
-    <a target="_blank" href="https://groups.google.com/forum/#!forum/openmbee">
+    <a target="_blank" href="https://groups.google.com/u/2/a/openmbee.org/g/community">
+      <img src="images/vendor-logos/google-groups.png">Google Group
+    </a>
+  </div>
+  <div class="col-xl-2 col-lg-4 col-md-6">
+    <a target="_blank" href="https://groups.google.com/u/2/a/openmbee.org/g/opensysml">
       <img src="images/vendor-logos/google-groups.png">Google Group
     </a>
   </div>
