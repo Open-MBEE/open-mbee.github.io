@@ -18,10 +18,19 @@ The Open MBEE Community utilizes a variety of resources available to open source
       <img src="images/vendor-logos/slack.png">Slack
     </a>
   </div>
-  
+    <div class="col-xl-2 col-lg-4 col-md-6">
+      <a href="https://drive.google.com/drive/folders/1-0gZYOUMf-ht56co9OumzvWxhS2C90rC" target="_blank">
+        <img src="images/vendor-logos/drive.png">Google Drive
+      </a>
+    </div>
+      <div class="col-xl-2 col-lg-4 col-md-6">
+      <a href="https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/overview" target="_blank">
+        <img src="images/vendor-logos/user-guide.png">Confluence
+      </a>
+    </div>
 </div>
 
-<h2>SysML Resources</h2>
+<h2>SysML Model Developer Resources</h2>
 <div class="row link-grid">
 
    <div class="col-xl-2 col-lg-4 col-md-6">
@@ -34,8 +43,13 @@ The Open MBEE Community utilizes a variety of resources available to open source
       <img src="images/vendor-logos/slack.png">Slack
     </a>
   </div>
+  <div class="col-xl-2 col-lg-4 col-md-6">
+      <a href="https://mms.openmbee.org" target="_blank">
+        <img src="images/vendor-logos/ve.png">View Editor
+      </a>
+    </div>
 </div>
-<h2>OpenMBEE Resources</h2>
+<h2>OpenMBEE Developer Resources</h2>
   <div class="row link-grid">
     <div class="col-xl-2 col-lg-4 col-md-6">
       <a href="https://search.maven.org/search?q=OpenMBEE" target="_blank">
@@ -57,11 +71,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
         <img src="images/vendor-logos/eng-hub.png">View Editor
       </a>
     </div>
-    <div class="col-xl-2 col-lg-4 col-md-6">
-      <a href="https://drive.google.com/drive/folders/1-0gZYOUMf-ht56co9OumzvWxhS2C90rC" target="_blank">
-        <img src="images/vendor-logos/drive.png">Google Drive
-      </a>
-    </div>
+  
     <div class="col-xl-2 col-lg-4 col-md-6">
       <a href="http://jira.openmbee.org" target="_blank">
         <img src="images/vendor-logos/jira.png">Issues
@@ -74,21 +84,13 @@ The Open MBEE Community utilizes a variety of resources available to open source
         <img src="images/vendor-logos/user-guide.png">User Guides
       </a>
     </div>
-    <div class="col-xl-2 col-lg-4 col-md-6">
-      <a href="https://mms.openmbee.org" target="_blank">
-        <img src="images/vendor-logos/ve.png">View Editor
-      </a>
-    </div>
+    
     <div class="col-xl-2 col-lg-4 col-md-6">
       <a href="https://www.youtube.com/channel/UCC4Ucy6P86ozz3pT01H7fmA" target="_blank">
         <img src="images/vendor-logos/youtube.png">YouTube
       </a>
   </div>
-  <div class="col-xl-2 col-lg-4 col-md-6">
-      <a href="https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/overview" target="_blank">
-        <img src="images/vendor-logos/user-guide.png">Confluence
-      </a>
-    </div>
+
 </div>
 
 
