@@ -1,6 +1,7 @@
 ## Model CM
 
-OpenMBEE Model CM Plugin
+[OpenMBEE Cameo Model CM Plugin](https://github.com/Open-MBEE/configuration-management-plugin)
 
 <br>
+
 
