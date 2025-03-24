@@ -14,7 +14,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
   </div>
 
   <div class="col-xl-2 col-lg-4 col-md-6">
-    <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-ec86jsqc-3VJNYM4a5Drx0v1n70~C8A">
+    <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-32hx8t2yp-ffifkzTCY0EvelMtM~A48g">
       <img src="images/vendor-logos/slack.png">Slack
     </a>
   </div>
@@ -39,7 +39,7 @@ The Open MBEE Community utilizes a variety of resources available to open source
     </a>
   </div>
   <div class="col-xl-2 col-lg-4 col-md-6">
-    <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-ec86jsqc-3VJNYM4a5Drx0v1n70~C8A">
+    <a target="_blank" href="https://join.slack.com/t/openmbee/shared_invite/zt-32hx8t2yp-ffifkzTCY0EvelMtM~A48g">
       <img src="images/vendor-logos/slack.png">Slack
     </a>
   </div>
