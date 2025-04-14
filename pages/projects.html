@@ -1,24 +1,25 @@
----
+<!-- ---
 layout: default
 title: Project Components
 permalink: projects.html
----
+--- -->
+<!-- Commented the above out so that projects.html isn't findable by tyoing it in as a url -->
   <!-- Nav tabs -->
   <ul class="nav nav-tabs nav-fill" role="tablist">
-    <li class="nav-item"><a class="nav-link active" href="#cookbooks" aria-controls="cookbooks" role="tab" data-toggle="tab">Models & Cookbooks</a></li>
+    <!-- <li class="nav-item"><a class="nav-link active" href="#cookbooks" aria-controls="cookbooks" role="tab" data-toggle="tab">Models & Cookbooks</a></li> -->
     <li class="nav-item"><a class="nav-link" href="#mdk" aria-controls="mdk" role="tab" data-toggle="tab">Jupyter & other Model Development Kits</a></li>
     <li class="nav-item"><a class="nav-link" href="#mms" aria-controls="mms" role="tab" data-toggle="tab">Model Management System</a></li>
-    <li class="nav-item"><a class="nav-link" href="#ve" aria-controls="ve" role="tab" data-toggle="tab">View Editor</a></li>
+    <!-- <li class="nav-item"><a class="nav-link" href="#ve" aria-controls="ve" role="tab" data-toggle="tab">View Editor</a></li> -->
     <li class="nav-item"><a class="nav-link" href="#modelcm" aria-controls="modelcm" role="tab" data-toggle="tab">ModelCM</a></li>
-    <li class="nav-item"><a class="nav-link" href="#comodo" aria-controls="comodo" role="tab" data-toggle="tab">Comodo</a></li>
+    <!-- <li class="nav-item"><a class="nav-link" href="#comodo" aria-controls="comodo" role="tab" data-toggle="tab">Comodo</a></li> -->
   </ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="cookbooks">
+    <!-- <div role="tabpanel" class="tab-pane active" id="cookbooks">
       {% capture models_include %}{% include_relative projects/models.md %}{% endcapture %}
       {{ models_include | markdownify }}
-    </div>
+    </div> -->
 
     <div role="tabpanel" class="tab-pane" id="mdk">
       {% capture mdk_include %}{% include_relative projects/mdk.md %}{% endcapture %}
@@ -30,17 +31,18 @@ permalink: projects.html
       {{ mms_include | markdownify }}
     </div>
 
-    <div role="tabpanel" class="tab-pane" id="ve">
+    <!-- <div role="tabpanel" class="tab-pane" id="ve">
       {% capture ve_include %}{% include_relative projects/ve.md %}{% endcapture %}
       {{ ve_include | markdownify }}
-    </div>
-       <div role="tabpanel" class="tab-pane" id="modelcm">
+    </div> -->
+
+    <div role="tabpanel" class="tab-pane" id="modelcm">
       {% capture modelcm_include %}{% include_relative projects/modelcm.md %}{% endcapture %}
       {{ modelcm_include | markdownify }}
     </div>
 
-    <div role="tabpanel" class="tab-pane" id="comodo">
+    <!-- <div role="tabpanel" class="tab-pane" id="comodo">
       {% capture comodo_include %}{% include_relative projects/comodo.md %}{% endcapture %}
       {{ comodo_include | markdownify }}
-    </div>
+    </div> -->
   </div>
