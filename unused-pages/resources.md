@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 title: Participate
 permalink: participate.html
----
+--- -->
 
 The Open MBEE Community utilizes a variety of resources available to open source projects. See how you can participate!
 <h2>OpenMBEE Community Resources</h2>
