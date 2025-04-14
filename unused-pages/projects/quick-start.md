@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 title: Quick Start Guides
 permalink: quick-start.html
----
+--- -->
 
 Step-by-step guides to get your OpenMBEE components installed and running quickly.
 
