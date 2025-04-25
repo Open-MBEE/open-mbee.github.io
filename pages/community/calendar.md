@@ -6,11 +6,11 @@ permalink: calendar.html
 
 ## Google Calendar
 
-<iframe src="https://calendar.google.com/calendar/embed?src=jbdo6r6v614cpl21ru4enlr6k8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_b13377f2e87869eae9461236dfa26ad490acc5d7216f44ed8ec3c4d72e509bb5%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Downloading the calendar .ics file
 
-Simply download the [OpenMBEE community calendar .ics file](https://www.google.com/calendar/ical/jbdo6r6v614cpl21ru4enlr6k8@group.calendar.google.com/public/basic.ics){:target="_blank"}. A downside of this method is that the calendar can become unsynchronized. To overcome this you may wish to 
+Simply download the [OpenMBEE community calendar .ics file](https://www.google.com/calendar/ical/c_b13377f2e87869eae9461236dfa26ad490acc5d7216f44ed8ec3c4d72e509bb5@group.calendar.google.com/public/basic.ics){:target="_blank"}. A downside of this method is that the calendar can become unsynchronized. To overcome this you may wish to 
 
 ## Importing and synchornizing your existing calendar with the OpenMBEE Google Calendar
 
