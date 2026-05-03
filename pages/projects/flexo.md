@@ -15,4 +15,4 @@ To setup Flexo MMS without SysMLv2, see [Flexo MMS deployment](https://github.co
 
 ## SysML v2 Web Modeler
 The SysML v2 Web Modeler packages a standalone Java web service for SysML v2 graphical rendering and textual editing against a SysML v2 API backend.
-[SysML v2 Web Modeler](https://github.com/Open-MBEE/sysmlv2-web-modeler){:target="_blank"}
+The repository is available at: [SysML v2 Web Modeler](https://github.com/Open-MBEE/sysmlv2-web-modeler){:target="_blank"}
