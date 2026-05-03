@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SysMLv2
+title: SysML v2
 permalink: flexo.html
 ---
 
