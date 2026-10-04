@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1070" width="1500" height="1070" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+<style>
+:root{--bg:#ffffff;--outer:#f6f7f9;--group:#eef1f6;--part:#ffffff;--sub:#f7f9fc;--stroke:#5b6577;--text:#1b2230;--muted:#5b6577;--conn:#2563eb;--port:#f59e0b}
+@media (prefers-color-scheme: dark){:root{--bg:#12151c;--outer:#171b24;--group:#1e2430;--part:#262d3b;--sub:#2d3546;--stroke:#8a94a8;--text:#e8ecf3;--muted:#a3adc0;--conn:#6ea0ff;--port:#fbbf24}}
+rect.outer{fill:var(--outer);stroke:var(--stroke);stroke-width:1.5}
+rect.group{fill:var(--group);stroke:var(--stroke);stroke-width:1.2}
+rect.part{fill:var(--part);stroke:var(--stroke);stroke-width:1.2}
+rect.sub{fill:var(--sub);stroke:var(--stroke);stroke-width:1}
+.dashed{stroke-dasharray:6 4}
+rect.port{fill:var(--port);stroke:var(--stroke);stroke-width:1}
+polyline.conn{fill:none;stroke:var(--conn);stroke-width:2}
+circle.dot{fill:var(--conn)}
+text{fill:var(--text)}
+text.title{font-size:14px;font-weight:600}
+text.plabel{font-size:10.5px;fill:var(--muted)}
+text.clabel{font-size:11.5px;font-style:italic;fill:var(--conn)}
+</style>
+<rect width="1500" height="1070" fill="var(--bg)"/>
+<rect class="outer" x="20" y="20" width="1460" height="1030" rx="6"/>
+<text class="title" x="40" y="50" text-anchor="start">openmbee</text>
+<rect class="group" x="100" y="60" width="1350" height="600" rx="6"/>
+<text class="title" x="110" y="82" text-anchor="start">suite</text>
+<rect class="part" x="130" y="100" width="220" height="80" rx="6"/>
+<text class="title" x="140" y="124" text-anchor="start">openSysML</text>
+<rect class="port" x="125" y="145" width="10" height="10"/>
+<text class="plabel" x="138" y="168" text-anchor="start">languageServices</text>
+<rect class="port" x="345" y="145" width="10" height="10"/>
+<text class="plabel" x="342" y="168" text-anchor="end">modelOutput</text>
+<rect class="part" x="130" y="210" width="220" height="80" rx="6"/>
+<text class="title" x="140" y="234" text-anchor="start">mdk</text>
+<rect class="port" x="125" y="255" width="10" height="10"/>
+<text class="plabel" x="138" y="278" text-anchor="start">repoLink</text>
+<rect class="port" x="345" y="255" width="10" height="10"/>
+<text class="plabel" x="342" y="278" text-anchor="end">mmsLink</text>
+<rect class="port" x="235" y="285" width="10" height="10"/>
+<text class="plabel" x="252" y="306" text-anchor="start">examples</text>
+<rect class="part" x="130" y="320" width="220" height="300" rx="6"/>
+<text class="title" x="140" y="344" text-anchor="start">viewEditor</text>
+<rect class="sub" x="150" y="380" width="180" height="50" rx="6"/>
+<text class="title" x="160" y="410" text-anchor="start">viewpoints</text>
+<rect class="sub" x="150" y="500" width="180" height="50" rx="6"/>
+<text class="title" x="160" y="530" text-anchor="start">views</text>
+<polyline class="conn" points="240,430 240,500"/>
+<rect class="port" x="345" y="465" width="10" height="10"/>
+<text class="plabel" x="342" y="488" text-anchor="end">modelAccess</text>
+<rect class="port" x="125" y="465" width="10" height="10"/>
+<text class="plabel" x="138" y="488" text-anchor="start">reportOutput</text>
+<rect class="part" x="420" y="100" width="500" height="500" rx="6"/>
+<text class="title" x="430" y="124" text-anchor="start">mms</text>
+<rect class="sub" x="455" y="150" width="430" height="70" rx="6"/>
+<text class="title" x="465" y="172" text-anchor="start">graphRepository</text>
+<rect class="port" x="450" y="180" width="10" height="10"/>
+<rect class="sub" x="455" y="270" width="130" height="70" rx="6"/>
+<text class="title" x="465" y="306" text-anchor="start">sysmlExtension</text>
+<rect class="sub" x="605" y="270" width="130" height="70" rx="6"/>
+<text class="title" x="615" y="306" text-anchor="start">graphqlExtension</text>
+<rect class="sub" x="755" y="270" width="130" height="70" rx="6"/>
+<text class="title" x="765" y="306" text-anchor="start">oslcExtension</text>
+<rect class="sub" x="455" y="400" width="430" height="80" rx="6"/>
+<text class="title" x="465" y="422" text-anchor="start">integrationFramework</text>
+<rect class="port" x="450" y="435" width="10" height="10"/>
+<polyline class="conn" points="520,220 520,270"/>
+<polyline class="conn" points="670,220 670,270"/>
+<polyline class="conn" points="820,220 820,270"/>
+<rect class="port" x="515" y="215" width="10" height="10"/>
+<rect class="port" x="515" y="265" width="10" height="10"/>
+<rect class="port" x="665" y="215" width="10" height="10"/>
+<rect class="port" x="665" y="265" width="10" height="10"/>
+<rect class="port" x="815" y="215" width="10" height="10"/>
+<rect class="port" x="815" y="265" width="10" height="10"/>
+<polyline class="conn" points="455,185 436,185 436,440 455,440"/>
+<rect class="port" x="415" y="345" width="10" height="10"/>
+<text class="plabel" x="445" y="362" text-anchor="start">modelAccess</text>
+<rect class="port" x="515" y="595" width="10" height="10"/>
+<text class="plabel" x="520" y="584" text-anchor="middle">repoAccess</text>
+<rect class="port" x="695" y="595" width="10" height="10"/>
+<text class="plabel" x="700" y="584" text-anchor="middle">adapterAccess</text>
+<rect class="port" x="775" y="595" width="10" height="10"/>
+<text class="plabel" x="780" y="584" text-anchor="middle">threadIngest</text>
+<polyline class="conn" points="350,150 385,150"/>
+<polyline class="conn" points="350,260 385,260"/>
+<polyline class="conn" points="350,470 385,470"/>
+<polyline class="conn" points="385,150 385,470"/>
+<polyline class="conn" points="385,350 420,350"/>
+<circle class="dot" cx="385" cy="260" r="3.5"/>
+<circle class="dot" cx="385" cy="350" r="3.5"/>
+<circle class="dot" cx="385" cy="470" r="3.5"/>
+<rect class="part" x="970" y="100" width="460" height="400" rx="6"/>
+<text class="title" x="980" y="124" text-anchor="start">openContent</text>
+<rect class="sub" x="990" y="150" width="340" height="50" rx="6"/>
+<text class="title" x="1000" y="180" text-anchor="start">models</text>
+<polyline class="conn" points="1330,175 1380,175"/>
+<rect class="sub" x="990" y="215" width="340" height="50" rx="6"/>
+<text class="title" x="1000" y="245" text-anchor="start">libraries</text>
+<polyline class="conn" points="1330,240 1380,240"/>
+<rect class="sub" x="990" y="280" width="340" height="50" rx="6"/>
+<text class="title" x="1000" y="310" text-anchor="start">graphs</text>
+<polyline class="conn" points="1330,305 1380,305"/>
+<rect class="sub" x="990" y="345" width="340" height="50" rx="6"/>
+<text class="title" x="1000" y="375" text-anchor="start">ontologies</text>
+<polyline class="conn" points="1330,370 1380,370"/>
+<rect class="sub" x="990" y="410" width="340" height="50" rx="6"/>
+<text class="title" x="1000" y="440" text-anchor="start">analysis</text>
+<polyline class="conn" points="1330,435 1380,435"/>
+<polyline class="conn" points="1380,175 1380,500"/>
+<circle class="dot" cx="1380" cy="175" r="3.5"/>
+<circle class="dot" cx="1380" cy="240" r="3.5"/>
+<circle class="dot" cx="1380" cy="305" r="3.5"/>
+<circle class="dot" cx="1380" cy="370" r="3.5"/>
+<rect class="port" x="1375" y="495" width="10" height="10"/>
+<text class="plabel" x="1372" y="490" text-anchor="end">contentOut</text>
+<polyline class="conn" points="1380,500 1380,650 780,650"/>
+<rect class="group" x="660" y="720" width="770" height="320" rx="6"/>
+<text class="title" x="1420" y="742" text-anchor="end">threadSources</text>
+<rect class="sub" x="880" y="790" width="150" height="60" rx="6"/>
+<text class="title" x="955" y="825" text-anchor="middle">sysmlModels</text>
+<polyline class="conn" points="955,790 955,760"/>
+<rect class="sub" x="1050" y="790" width="150" height="60" rx="6"/>
+<text class="title" x="1125" y="825" text-anchor="middle">rdfGraphs</text>
+<polyline class="conn" points="1125,790 1125,760"/>
+<rect class="sub" x="1220" y="790" width="150" height="60" rx="6"/>
+<text class="title" x="1295" y="825" text-anchor="middle">ontologies</text>
+<polyline class="conn" points="1295,790 1295,760"/>
+<polyline class="conn" points="780,760 1295,760"/>
+<polyline class="conn" points="780,720 780,760"/>
+<rect class="port" x="775" y="715" width="10" height="10"/>
+<text class="plabel" x="790" y="738" text-anchor="start">threadOut</text>
+<rect class="sub dashed" x="680" y="870" width="730" height="155" rx="6"/>
+<text class="title" x="1400" y="890" text-anchor="end">futureLanguages</text>
+<rect class="sub dashed" x="710" y="940" width="150" height="60" rx="6"/>
+<text class="title" x="785" y="975" text-anchor="middle">modelica</text>
+<polyline class="conn dashed" points="785,940 785,910"/>
+<rect class="sub dashed" x="880" y="940" width="150" height="60" rx="6"/>
+<text class="title" x="955" y="975" text-anchor="middle">simulink</text>
+<polyline class="conn dashed" points="955,940 955,910"/>
+<rect class="sub dashed" x="1050" y="940" width="150" height="60" rx="6"/>
+<text class="title" x="1125" y="975" text-anchor="middle">others</text>
+<polyline class="conn dashed" points="1125,940 1125,910"/>
+<polyline class="conn dashed" points="700,910 1125,910"/>
+<polyline class="conn dashed" points="700,870 700,910"/>
+<rect class="port" x="695" y="865" width="10" height="10"/>
+<text class="plabel" x="710" y="862" text-anchor="start">futureOut</text>
+<polyline class="conn" points="780,720 780,600"/>
+<circle class="dot" cx="780" cy="650" r="3.5"/>
+<polyline class="conn dashed" points="700,870 700,600"/>
+<text class="clabel" x="790" y="700" text-anchor="start">digitalThread</text>
+<text class="clabel" x="692" y="680" text-anchor="end">futureLanguageIntegration</text>
+<rect class="group" x="100" y="720" width="520" height="320" rx="6"/>
+<text class="title" x="110" y="742" text-anchor="start">community</text>
+<rect class="sub" x="120" y="790" width="145" height="60" rx="6"/>
+<text class="title" x="130" y="825" text-anchor="start">github</text>
+<rect class="sub" x="285" y="790" width="145" height="60" rx="6"/>
+<text class="title" x="295" y="825" text-anchor="start">chat</text>
+<rect class="sub" x="450" y="790" width="145" height="60" rx="6"/>
+<text class="title" x="460" y="825" text-anchor="start">emailGroups</text>
+<rect class="sub" x="120" y="890" width="145" height="60" rx="6"/>
+<text class="title" x="130" y="925" text-anchor="start">buildServices</text>
+<rect class="sub" x="285" y="890" width="145" height="60" rx="6"/>
+<text class="title" x="295" y="925" text-anchor="start">webHosting</text>
+<rect class="sub" x="450" y="890" width="145" height="60" rx="6"/>
+<text class="title" x="460" y="915" text-anchor="start">socialAnd-<tspan x='460' dy='16'>WebMedia</tspan></text>
+<rect class="port" x="187" y="845" width="10" height="10"/>
+<text class="plabel" x="202" y="866" text-anchor="start">repos</text>
+<rect class="port" x="187" y="885" width="10" height="10"/>
+<polyline class="conn" points="192,850 192,890"/>
+<polyline class="conn" points="430,920 450,920"/>
+<polyline class="conn" points="192,790 192,760"/>
+<polyline class="conn" points="357,790 357,760"/>
+<polyline class="conn" points="522,790 522,760"/>
+<polyline class="conn" points="192,760 522,760"/>
+<polyline class="conn" points="522,720 522,760"/>
+<circle class="dot" cx="357" cy="760" r="3.5"/>
+<rect class="port" x="517" y="715" width="10" height="10"/>
+<text class="plabel" x="512" y="738" text-anchor="end">developmentSupport</text>
+<polyline class="conn" points="522,720 522,600"/>
+<text class="clabel" x="530" y="700" text-anchor="start">communityToSuite</text>
+<polyline class="conn" points="130,150 60,150 60,820 120,820"/>
+<polyline class="conn" points="130,260 60,260"/>
+<circle class="dot" cx="60" cy="260" r="3.5"/>
+<rect class="port" x="115" y="815" width="10" height="10"/>
+<text class="clabel" x="50" y="500" text-anchor="middle" transform="rotate(-90 50 500)">mdkToGithub / openSysMLToGithub</text>
+<text class="clabel" x="367" y="140" text-anchor="start"></text>
+</svg>
