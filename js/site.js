@@ -24,6 +24,8 @@
     if (e.key === 'Escape') {
       subs.forEach(function (o) { o.classList.remove('open'); o.querySelector('button').setAttribute('aria-expanded', 'false'); });
       if (nav) nav.classList.remove('open');
+      var active = document.activeElement;
+      if (active && active.closest && active.closest('.has-sub')) active.blur();
     }
   });
 
