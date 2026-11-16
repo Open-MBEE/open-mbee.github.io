@@ -1,60 +1,33 @@
-## Site for openmbee.org
+# OpenMBEE website (GitHub Pages)
 
-Github Pages is currently setup for master branch, any changes pushed to master will automatically go live.
+Static site, no framework or build tooling needed to host it.
 
-### How to run locally
+## Deploy
+1. Copy these files to the root of the Pages repo (for example `Open-MBEE/open-mbee.github.io`, branch `master`), or to a new repo.
+2. Repo Settings → Pages → Deploy from a branch → select the branch and `/ (root)`.
+3. Custom domain: add a `CNAME` file containing the hostname (the current site's CNAME file is 16 bytes, which matches `www.openmbee.org`; confirm before overwriting it) and set the domain in Pages settings.
 
-see https://jekyllrb.com/
+## Edit
+- The menu and all page content live in `build.py`. After editing, run `python3 build.py` to regenerate the `.html` files (standard library only).
+- Styles: `css/style.css`. Menu behavior: `js/site.js`.
 
-### Build locally using docker
+## Still to add from the existing site
+- Real logo (`images/openmbee-logo.svg`) and favicon set: the new site uses a simple drawn wordmark and an inline favicon. Swap the `LOGO` / `FAVICON` constants in `build.py` when you have the files.
+- Menu items that point to the GitHub wiki (Publications, Sponsors, Contribute, Participate, Models & Cookbooks) are unchanged.
 
-```zsh
-docker run --rm \
-  --volume="$PWD:/srv/jekyll:Z" \
-  --publish 4000:4000 \
-  jekyll/jekyll:3.8 \
-  jekyll serve --trace
-```
+## Brand guidelines page
 
-See [envygeeks/jekyll-docker/](https://github.com/envygeeks/jekyll-docker/blob/master/README.md) for canonical documentation.
+`brand.html` is an HTML conversion of the OpenMBEE brand guidelines PDF (content lives in `brand.py`).
+Logo artwork is in `brand/` (SVG extracted from the PDF's vector art, plus PNG exports and `openmbee-brand-assets.zip`).
+It appears under Community > Brand Guidelines. The ABeeZee typeface is loaded from Google Fonts on that page only;
+to self-host it, drop the font files into `fonts/` and replace `BRAND_FONT` in `build.py` with an `@font-face` rule.
 
-### or do this
+## Licensing
 
-fork this repo, remove CNAME, enable github pages and check
+The site states the OpenMBEE license preference: Apache 2.0 for code and CC BY 4.0 for media and content, with recommended marking on `licenses.html` (footer bar, `licenses.html`, home hero chip). Edit `build.py` to change the CC version or wording.
 
-### more info
+## Additional brand graphics
 
-https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
-
-### basic markdown
-
-    # h1
-
-    ## h2
-
-    ### h3
-
-    #### h4
-
-    paragraphs are separated by blank lines
-
-    * unordered list item 1
-    * unordered list item 2
-
-    1. ordered list item 1
-    1. ordered list item 2
-        1. nested list item 1
-
-    *italicized*
-
-    **bolded**
-
-    ***bold and italic***
-
-    [link text](link url)
-
-    [link text](link url){target="_blank"}
-
-    ![image text](image link)
-
-    <quick url or email link>
+`graphics.py` generates the OpenSysML badge, OpenSysML DocGen Language lockup and OpenMBEE 2027 Workshop badge
+(dark and light versions, SVG) into `brand/`; PNG exports come from `rsvg-convert -w 1400`. Lettering is outlined from Inter
+because ABeeZee was not available when they were drawn: point `FONT_DIR`/`FONTS` at ABeeZee and re-run for exact brand lettering.
