@@ -37,7 +37,7 @@ nav a:hover,nav button:hover,nav button[aria-expanded="true"]{background:rgba(25
 .sub a{color:var(--ink-2)}
 .sub a:hover{background:var(--alt);color:var(--ink)}
 nav button svg{width:10px;height:6px}
-.sub{display:none;position:absolute;right:0;top:100%;min-width:250px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:8px;flex-direction:column;align-items:stretch;gap:0}
+.sub{display:none;position:absolute;right:0;top:100%;min-width:250px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:8px;flex-direction:column;align-items:stretch;gap:0;max-height:calc(100vh - 80px);overflow-y:auto}
 .has-sub:hover>.sub,.has-sub:focus-within>.sub,.has-sub.open>.sub{display:flex}
 .sub a{display:block;padding:9px 12px;white-space:nowrap}
 .sep{height:1px;background:var(--line);margin:6px 4px}
@@ -266,7 +266,7 @@ pre code{background:none;padding:0;border-radius:0;font-size:inherit}
   nav.open{display:block}
   nav ul{flex-direction:column;align-items:stretch;padding:10px 20px 20px}
   nav a,nav button{width:100%;justify-content:space-between;padding:12px}
-  .sub{position:static;box-shadow:none;background:transparent;border:0;border-left:2px solid rgba(255,255,255,.25);border-radius:0;margin-left:12px;padding:0 0 0 6px;min-width:0}
+  .sub{position:static;box-shadow:none;background:transparent;border:0;border-left:2px solid rgba(255,255,255,.25);border-radius:0;margin-left:12px;padding:0 0 0 6px;min-width:0;max-height:none;overflow:visible}
   .has-sub:hover>.sub,.has-sub:focus-within>.sub{display:none}
   .has-sub.open>.sub{display:flex}
   .sub a{white-space:normal;color:#fff}
@@ -339,7 +339,7 @@ nav a,nav button{white-space:nowrap}
   nav.open{display:block}
   nav ul{flex-direction:column;align-items:stretch;padding:10px 20px 20px}
   nav a,nav button{width:100%;justify-content:space-between;padding:12px}
-  .sub{position:static;box-shadow:none;background:transparent;border:0;border-left:2px solid rgba(255,255,255,.25);border-radius:0;margin-left:12px;padding:0 0 0 6px;min-width:0}
+  .sub{position:static;box-shadow:none;background:transparent;border:0;border-left:2px solid rgba(255,255,255,.25);border-radius:0;margin-left:12px;padding:0 0 0 6px;min-width:0;max-height:none;overflow:visible}
   .has-sub:hover>.sub,.has-sub:focus-within>.sub{display:none}
   .has-sub.open>.sub{display:flex}
   .sub a,.sub a:hover{color:#fff}
