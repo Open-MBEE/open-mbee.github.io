@@ -1,89 +1,292 @@
----
-layout: front
-title: Open Model Based Engineering Environment
----
-  <div class="jumbotron splash-background">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 pb-2">
-          <h1 class="font-weight-bold">Connected engineering information for a connected world</h1> 
-          <span class="header-subtext text-muted">OpenMBEE (Open Model Based Engineering Environment) is an open source collaborative engineering system. It enables engineers to work in the language of their choice and easily share and document their work across other tools.</span>
-        </div>
-        <div class="col-sm-8 col-lg-4">
-          <img class="d-block mx-auto img-fluid" src="images/linked-data-document.svg" alt="diagram showing elements linked to each other including a satellite solar panel, a node of a model, and a document"/>
-          <span class="text-muted pt-3 d-block font-italic text-center font-weight-bold">Edit once, use everywhere</span>
-        </div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenMBEE — Open foundations for digital engineering</title>
+<meta name="description" content="OpenMBEE: an open source model hub (MMS), tool integrations (MDKs) and an open SysML v2 implementation (OpenSysML) for digital engineering.">
+<link rel="icon" href="brand/favicon.svg">
+<link rel="license" href="licenses.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="OpenMBEE home"><img class="logo-img" src="brand/openmbee-logo-horizontal.svg" alt="OpenMBEE" width="154" height="38"></a>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+    <nav id="site-nav" aria-label="Main"><ul>
+<li><a href="index.html">Home</a></li>
+<li class="has-sub"><button type="button" aria-expanded="false" aria-haspopup="true">About<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><ul class="sub"><li><a href="about.html">About Us</a></li><li><a href="impacts.html">Impacts</a></li><li><a href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/Publications" target="_blank" rel="noopener">Publications</a></li><li><a href="sponsors.html">Sponsors</a></li></ul></li>
+<li><a href="numfocus.html">NumFOCUS Project</a></li>
+<li><a href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/Contribute">Contribute</a></li>
+<li><a href="participate.html">Participate</a></li>
+<li class="has-sub"><button type="button" aria-expanded="false" aria-haspopup="true">Projects<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><ul class="sub"><li><a href="https://opensysml.org" target="_blank" rel="noopener">opensysml.org</a></li><li><a href="https://oosem.opensysml.org" target="_blank" rel="noopener">oosem.opensysml.org</a></li><li><a href="https://flexo-mms.openmbee.org" target="_blank" rel="noopener">flexo-mms.openmbee.org</a></li><li><a href="https://runtime.opensysml.org" target="_blank" rel="noopener">runtime.opensysml.org</a></li></ul></li>
+<li><a href="partners.html">Partners</a></li>
+<li class="has-sub"><button type="button" aria-expanded="false" aria-haspopup="true">Community<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><ul class="sub"><li><a href="https://openmbee.slack.com" target="_blank" rel="noopener">Slack</a></li><li><a href="https://www.youtube.com/channel/UCC4Ucy6P86ozz3pT01H7fmA" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/company/openmbee/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://groups.google.com/forum/#!forum/openmbee" target="_blank" rel="noopener">Google Group</a></li><li><a href="https://www.instagram.com/openmbee" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://facebook.com/openmbee/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://twitter.com/openmbee" target="_blank" rel="noopener">Twitter</a></li><li class="sep" role="separator"></li><li><a href="code-of-conduct.html">Code of Conduct</a></li><li><a href="governance.html">Governance</a></li><li><a href="leadership.html">Leadership</a></li><li><a href="licenses.html">Licenses</a></li><li><a href="brand.html">Brand Guidelines</a></li><li><a href="opensysml-brand.html">OpenSysML Brand</a></li><li><a href="workshop-brand.html">Workshop Brand</a></li><li class="sep" role="separator"></li><li><a href="https://www.omgwiki.org/MBSE/doku.php?id=mbse:ecosystems" target="_blank" rel="noopener">INCOSE</a></li><li><a href="https://numfocus.org/" target="_blank" rel="noopener">NumFOCUS</a></li></ul></li>
+<li class="has-sub"><button type="button" aria-expanded="false" aria-haspopup="true">Events<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><ul class="sub"><li><a href="https://workshops.openmbee.org" target="_blank" rel="noopener">workshops.openmbee.org</a></li></ul></li>
+    </ul></nav>
+  </div>
+</header>
+<aside class="banner" aria-label="Announcement">
+  <div class="wrap banner-in">
+    <span class="banner-tag">Registration and call for participation open</span>
+    <p><strong>OpenMBEE Workshop 2027</strong> at <strong>INCOSE IW 2027</strong> and at <strong>Caltech</strong> (February 3&ndash;5, 2027).</p>
+    <a class="banner-link" href="https://workshops.openmbee.org" target="_blank" rel="noopener">Details &rarr;</a>
+  </div>
+</aside>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Open source digital engineering</p>
+      <h1>Open foundations for <span class="grad">digital engineering</span>.</h1>
+      <p class="lead">OpenMBEE connects the tools, models and teams behind complex systems: a model hub to manage them, integrations to bring your tools in, and an open implementation of SysML v2, a central language for digital engineering.</p>
+      <div class="cta">
+        <a class="btn primary" href="#platform">Explore the platform</a>
+        <a class="btn ghost" href="#get-started">Get started</a>
+        <a class="btn ghost" href="https://github.com/Open-MBEE" target="_blank" rel="noopener">GitHub</a>
       </div>
+      <ul class="chips"><li><a class="chip-link" href="licenses.html">Apache 2.0 + CC BY 4.0</a></li><li class="sysml"><img class="sysml-logo" src="img/sysmlv2-logo.png" alt="SysML v2" width="24" height="23">SysML v2 &amp; KerML</li><li>Version-controlled models</li><li>Open APIs</li></ul>
+    </div>
+    <div class="hero-art"><svg class="arch" viewBox="0 0 520 412" role="img" aria-labelledby="arch-t arch-d">
+<title id="arch-t">How OpenMBEE's three pillars fit together</title>
+<desc id="arch-d">MDKs are embedded in the tools engineers already use, such as Cameo, VS Code and Jupyter, and each MDK carries the OpenSysML runtime. The MDKs connect to MMS, the model hub, which holds SysML, RDF and OWL, and GraphQL interfaces.</desc>
+<g class="tool"><rect x="20" y="12" width="152" height="172" rx="14"/><text class="t" x="96" y="34" text-anchor="middle">Cameo</text>
+  <g class="mdk"><rect x="30" y="46" width="132" height="128" rx="10"/><text class="h" x="96" y="67" text-anchor="middle">MDK</text><text class="s" x="96" y="83" text-anchor="middle">sync · DocGen</text>
+    <g class="osys"><rect x="40" y="96" width="112" height="66" rx="8"/><text class="h2" x="96" y="124" text-anchor="middle">OpenSysML</text><text class="s2" x="96" y="143" text-anchor="middle">SysML v2 · KerML</text></g></g></g>
+<g class="tool"><rect x="184" y="12" width="152" height="172" rx="14"/><text class="t" x="260" y="34" text-anchor="middle">VS Code</text>
+  <g class="mdk"><rect x="194" y="46" width="132" height="128" rx="10"/><text class="h" x="260" y="67" text-anchor="middle">MDK</text><text class="s" x="260" y="83" text-anchor="middle">extension</text>
+    <g class="osys"><rect x="204" y="96" width="112" height="66" rx="8"/><text class="h2" x="260" y="124" text-anchor="middle">OpenSysML</text><text class="s2" x="260" y="143" text-anchor="middle">SysML v2 · KerML</text></g></g></g>
+<g class="tool"><rect x="348" y="12" width="152" height="172" rx="14"/><text class="t" x="424" y="34" text-anchor="middle">Jupyter</text>
+  <g class="mdk"><rect x="358" y="46" width="132" height="128" rx="10"/><text class="h" x="424" y="67" text-anchor="middle">MDK</text><text class="s" x="424" y="83" text-anchor="middle">kernel</text>
+    <g class="osys"><rect x="368" y="96" width="112" height="66" rx="8"/><text class="h2" x="424" y="124" text-anchor="middle">OpenSysML</text><text class="s2" x="424" y="143" text-anchor="middle">SysML v2 · KerML</text></g></g></g>
+<g class="flow-l"><line x1="96" y1="184" x2="96" y2="224"/><line x1="260" y1="184" x2="260" y2="224"/><line x1="424" y1="184" x2="424" y2="224"/></g>
+<g class="mms"><rect x="20" y="224" width="480" height="172" rx="18"/>
+  <text class="h big" x="260" y="258" text-anchor="middle">MMS</text>
+  <text class="s" x="260" y="280" text-anchor="middle">The model hub · version · branch · tag</text>
+  <g class="iface"><rect x="34" y="294" width="144" height="56" rx="10"/><text x="106" y="328" text-anchor="middle">SysML</text></g>
+  <g class="iface"><rect x="188" y="294" width="144" height="56" rx="10"/><text x="260" y="328" text-anchor="middle">RDF / OWL</text></g>
+  <g class="iface"><rect x="342" y="294" width="144" height="56" rx="10"/><text x="414" y="328" text-anchor="middle">GraphQL</text></g>
+  <text class="s dim" x="260" y="378" text-anchor="middle">REST &amp; SPARQL APIs · access control</text></g>
+</svg></div>
+  </div>
+</section>
+
+
+<section class="block" id="platform">
+  <div class="wrap">
+    <p class="eyebrow dark">The platform</p>
+    <h2>Three open pillars, one connected system.</h2>
+    <p class="sub-lead">Use them together, or adopt them one at a time. Each is open source and built to work with the others.</p>
+    <div class="pillars">
+      <article class="pillar p-mms">
+        <span class="badge">The hub</span>
+        <h3>MMS</h3>
+        <p class="role">Model Management System</p>
+        <p>Version control for structured engineering data: branching, tagging, access control and open REST and SPARQL APIs, so every tool and team works from one source of truth.</p>
+        <p class="links"><a href="#mms">Explore MMS →</a></p>
+      </article>
+      <article class="pillar p-mdk">
+        <span class="badge">Development integrations</span>
+        <h3>MDKs</h3>
+        <p class="role">Model Development Kits</p>
+        <p>Tool integrations embedded where engineers already work, such as Cameo, VS Code and Jupyter. They sync models with MMS and generate documents from models with DocGen, with the OpenSysML runtime built in.</p>
+        <p class="links"><a href="#mdks">Explore MDKs →</a></p>
+      </article>
+      <article class="pillar p-lang">
+        <img class="sysml-logo corner" src="img/sysmlv2-logo.png" alt="SysML v2" width="72" height="70">
+        <span class="badge">Language foundations</span>
+        <h3>OpenSysML</h3>
+        <p class="role">Open source SysML v2</p>
+        <p>An open implementation of SysML v2 and KerML (parser, runtime, language server, notebook kernel and client libraries) built into the MDKs, so every tool shares a central, standard language for digital engineering.</p>
+        <p class="links"><a href="#opensysml">Explore OpenSysML →</a></p>
+      </article>
     </div>
   </div>
+</section>
 
-  <div class="container">
-    <h1 class="text-muted d-none" id="navbar-title"></h1>
+<section class="block alt" id="mms">
+  <div class="wrap">
+    <p class="eyebrow dark">Pillar 1 · MMS, the hub</p>
+    <h2>One hub. Every model, version and tool.</h2>
+    <p class="sub-lead">Digital engineering means many tools and teams touching the same system definition. MMS is the layer that keeps them consistent, traceable and open.</p>
+    <div class="cards">
+      <article class="card"><div class="ico">⑂</div><h3>Git for engineering data</h3><p>Commit, branch and tag model data with full CRUD over a versioned repository, so you can see what changed, compare it, and return to any baseline.</p></article>
+      <article class="card"><div class="ico">⇄</div><h3>Open, standard APIs</h3><p>RESTful web services for model access. The Flexo architecture adds SPARQL and Graph Store Protocol endpoints, and a service implementing the OMG SysML v2 API.</p></article>
+      <article class="card"><div class="ico">⌘</div><h3>Works with your tools</h3><p>Desktop SysML clients like MagicDraw, the web-based View Editor, Mathematica, Python and Java clients, or anything that can call a web service.</p></article>
+      <article class="card"><div class="ico">❏</div><h3>Documents and notebooks</h3><p>Generate documents from models with the view and viewpoint approach, and store and search Jupyter Lab notebooks alongside the model.</p></article>
+      <article class="card"><div class="ico">◈</div><h3>Graph-native models</h3><p>Flexo MMS stores models as RDF graphs and can diff and manage anything expressible as RDF, not only a single vendor's model format.</p></article>
+      <article class="card"><div class="ico">⛨</div><h3>Controlled and deployable</h3><p>Access control and multi-tenant collaboration, LDAP-capable authentication in Flexo, and sample Docker Compose and Kubernetes deployments to run it yourself.</p></article>
+    </div>
+  </div>
+</section>
 
-    <section class="mb-5 pt-5">
-      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE Components</h2>
-      <div class="row">
-        <div class="col-md-8 col-lg-4">
-          <img class="img-sm pb-3" src="images/icon-spacecraft.svg" alt="satellite with a highlighted solar panel in a page">
-          <h4><a href="https://github.com/Open-MBEE/exec-cameo-mdk">Model Development Kits</a></h4>
-          <p>Model Development Kits (MDKs) are tool-specific integrations that's
-            primary purposes are to sync models with the MMS and implement the DocGen language, which allows
-            modelers to dynamically generate documents in a model-based approach using the view and viewpoint concept.
-          </p>
-        </div>
-        <div class="col-md-8 col-lg-4">
-          <img class="img-sm pb-3" src="images/icon-db.svg" alt="database icon">
-          <h4><a href="https://github.com/Open-MBEE/">Model Management System</a></h4>
-          <p>MMS is a version control system for structured data. It exposes model information through RESTful web
-            services that can be used for CRUD operations, branching, and tagging of the model repository.</p>
-        </div>
-        <!-- <div class="col-md-6 col-lg-3">
-          <img class="img-sm pb-3" src="images/icon-document.svg" alt="a document with a highlighted line">
-          <h4><a href="projects.html#ve">View Editor</a></h4>
-          <p>VE enables users to interact with SysML models within a web-based environment. It implements
-            the MMS REST API to provide a web environment to create, read, and update model elements, including Documents
-            and Views.</p>
-        </div> -->
-        <div class="col-md-8 col-lg-4">
-          <img class="img-sm pb-3" src="images/icon-cookbook.svg" alt="a cookbook">
-          <h4><a href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/Models-and-Cookbooks">OpenSE Cookbook</a></h4>
-          <p>Engineering cookbooks are a compendium for the engineer which captures best practices, lessons learned, and provides guidance on how to use languages and tools to perform a certain engineering task</p>
-        </div>
+<section class="block" id="flavors">
+  <div class="wrap">
+    <p class="eyebrow dark">MMS architectures</p>
+    <h2>Pick the MMS that fits your data.</h2>
+    <p class="sub-lead">Flexo is built for RDF graphs; Execubots is the long-supported JSON-document implementation. Flexo MMS is not a drop-in replacement for Execubots MMS.</p>
+    <div class="duo">
+      <article class="panel feature">
+        <span class="tag">Graph-native</span>
+        <h3>Flexo MMS</h3>
+        <p>Models as RDF graphs, with SPARQL and Graph Store Protocol endpoints for loading, updating and querying, plus management endpoints for orgs, repos and branches. Includes auth and store services.</p>
+        <ul><li>Native RDF, graph diff</li><li>Flexo SysML v2 service (beta), an implementation of the OMG SysML v2 API Services Specification</li><li>Docker Compose and Kubernetes samples</li></ul>
+        <p class="links"><a href="https://flexo-mms-deployment-guide.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener">Documentation →</a> <a href="https://github.com/Open-MBEE/flexo-mms-deployment" target="_blank" rel="noopener">Deployment repo →</a></p>
+      </article>
+      <article class="panel">
+        <span class="tag muted-tag">Long-term support</span>
+        <h3>Execubots MMS</h3>
+        <p>Models as JSON documents behind RESTful web services for CRUD, branching and tagging, built from modular Spring components you can pick and choose.</p>
+        <ul><li>Reference implementation (MMSRI) for a ready-made REST API</li><li>Jupyter notebook storage and search</li><li>Python client on PyPI (mms-python-client)</li></ul>
+        <p class="links"><a href="https://mms-reference-implementation.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener">Documentation →</a> <a href="https://github.com/Open-MBEE/exec-mmsri" target="_blank" rel="noopener">Source →</a></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="block alt" id="mdks">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow dark">Pillar 2 · MDKs, development integrations</p>
+      <h2>Bring your tools to the hub.</h2>
+      <p>Model Development Kits are tool-specific integrations. Their primary purposes are to sync models with the MMS and to implement the DocGen language, which lets modelers dynamically generate documents from models using the view and viewpoint concept.</p>
+      <p>MDKs are embedded where engineers already work, such as Cameo, a VS Code extension and a Jupyter kernel, and they carry the OpenSysML runtime with them. Engineers keep working in the language and tool they prefer, while their work is versioned, shared and documented across other tools.</p>
+      <p class="links"><a href="https://github.com/Open-MBEE/exec-cameo-mdk" target="_blank" rel="noopener">Cameo MDK on GitHub →</a> <a href="impacts.html">MDKs on flight projects →</a></p>
+    </div>
+    <ul class="points">
+      <li><h3>Sync with MMS</h3><p>Push and pull model data between your modeling tool and the versioned repository.</p></li>
+      <li><h3>Documents from models</h3><p>DocGen turns model content into engineering documents, so documents stay current as the model changes.</p></li>
+      <li><h3>Next generation: MDK2</h3><p>The OpenSysML Runtime Environment and Development Kit (REDK) is the second generation of the MDK, with a Cameo plugin in its repository.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="opensysml">
+  <div class="wrap">
+    <p class="eyebrow dark">Pillar 3 · OpenSysML, language foundations</p>
+    <div class="sysml-head"><img class="sysml-logo" src="img/sysmlv2-logo.png" alt="SysML v2" width="84" height="82"><h2>SysML v2: a central language for digital engineering.</h2></div>
+    <p class="sub-lead">OpenSysML is an open source implementation of SysML v2 and KerML, written in Go. It gives tools, services and engineers a shared, executable definition of system structure, behavior and requirements.</p>
+    <div class="cards">
+      <article class="card"><div class="ico">⌥</div><h3>Parser and libraries</h3><p>A parser based on the OMG grammars, with the OMG standard library and OpenSysML extension libraries.</p></article>
+      <article class="card"><div class="ico">▶</div><h3>Executable runtime</h3><p>Instantiate parts, evaluate expressions with units, run actions and state machines, and check requirements.</p></article>
+      <article class="card"><div class="ico">&gt;_</div><h3>Command line and REPL</h3><p>Model, execute and check interactively from the <code>sysml</code> command.</p></article>
+      <article class="card"><div class="ico">✎</div><h3>Language server</h3><p>Diagnostics, hover, go-to-definition, completion and formatting, with a VS Code extension.</p></article>
+      <article class="card"><div class="ico">❖</div><h3>Jupyter kernel</h3><p>Run SysML cells in notebooks alongside analysis and documentation.</p></article>
+      <article class="card"><div class="ico">⇆</div><h3>Client libraries and service</h3><p>Clients for Go, Python, TypeScript, Java, Rust, Julia and MATLAB/Octave, plus a gRPC service.</p></article>
+    </div>
+    <p class="links after"><a href="https://github.com/Open-MBEE/OpenSysML" target="_blank" rel="noopener">OpenSysML on GitHub →</a> <a href="https://runtime.opensysml.org" target="_blank" rel="noopener">Runtime documentation →</a> <a href="https://github.com/Open-MBEE/toaster" target="_blank" rel="noopener">Executable tutorial →</a> <a href="https://flexo-mms.openmbee.org" target="_blank" rel="noopener">Flexo MMS →</a></p>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <p class="eyebrow dark">How it fits together</p>
+    <h2>From language to finished deliverable.</h2>
+    <ol class="flow">
+      <li><span class="n">1</span><h3>Describe</h3><p>Capture system structure, behavior and requirements in SysML v2, with OpenSysML tooling to parse, run and check it.</p></li>
+      <li><span class="n">2</span><h3>Integrate</h3><p>MDKs and clients connect your modeling tools to the hub, keeping tools and repository in step.</p></li>
+      <li><span class="n">3</span><h3>Manage</h3><p>MMS versions every change, supports branching and tagging, and controls who can see and edit what.</p></li>
+      <li><span class="n">4</span><h3>Use</h3><p>Generate documents, run analyses, build apps and dashboards from the same governed data through open APIs.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="block dark-band" id="get-started">
+  <div class="wrap qs">
+    <div>
+      <p class="eyebrow">Get started</p>
+      <h2>Start with the piece you need.</h2>
+      <p class="sub-lead light">Run an MMS hub on your own machine with Docker Compose, try the SysML v2 API service, or explore the OpenSysML runtime and language tooling.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://flexo-mms-deployment-guide.readthedocs.io/en/latest/local_quickstart.html" target="_blank" rel="noopener">Flexo MMS quickstart</a>
+        <a class="btn ghost light" href="https://github.com/Open-MBEE/flexo-mms-sysmlv2/tree/develop/docker-compose" target="_blank" rel="noopener">Flexo SysML v2 beta</a>
+        <a class="btn ghost light" href="https://github.com/Open-MBEE/OpenSysML" target="_blank" rel="noopener">Try OpenSysML</a>
       </div>
-    </section>
+    </div>
+    <pre class="code" aria-label="Clone the deployment repository"><code><span class="c"># MMS: get the sample deployment files</span>
+git clone https://github.com/Open-MBEE/flexo-mms-deployment
+cd flexo-mms-deployment/docker-compose
 
-    <section class="mb-5 pt-5">
-      <h2 class="mb-5 text-center font-weight-bold">OpenMBEE In the Wild</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-fluid" src="images/Top_view_of_tmt_complex.jpg" alt="rendering of the TMT complex">
-        </div>
-        <div class="col-lg-8">
-          <h4><a href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/Models-and-Cookbooks">Thirty Meter Telescope SysML Model</a></h4>
-          <p>TMT is currently being developed by the <a target="_blank" href="http://www.tmt.org/">TMT Observatory
-              Corporation</a>. The TMT SysML model provides an industrial scale application of OpenMBEE and system-level
-            behavior simulation. The main objective for the TMT related analysis is to provide state-dependent power
-            roll-ups for different operational scenarios and demonstrate that requirements are satisfied by the design as
-            well as mass roll-ups and duration analysis of the operational use cases. The model is built with an approach
-            to model-based systems analysis with SysML that is both rigorous and automated. The approach’s rigor is
-            established with a modeling method that is an extension of <a target="_blank"
-              href="http://www.incose.org/">INCOSE</a>’s Object Oriented Systems Engineering Method (OOSEM).</p>
-        </div>
-      </div>
-    </section>
+<span class="c"># then follow the quickstart for env configs and the init file</span></code></pre>
+  </div>
+</section>
 
-    <section class="mb-5 pt-5">
-      <h2 class="mb-5 text-center font-weight-bold">Proud recipient of NumFOCUS fiscal support</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <a class="d-block mx-auto img-fluid" href="https://numfocus.org/" target="_blank">
-            <img src="images/NumFocusSquare.png"/>
-          </a>
-        </div>
-        <div class="col-lg-8">
-          <p>OpenMBEE is a fiscally sponsored project of <a target="_blank" href="https://numfocus.org/">NumFOCUS</a>, a nonprofit dedicated to supporting the open source scientific computing community. If you like OpenMBEE and want to support our mission, <a href="https://numfocus.org/donate-to-openmbee">please consider making a donation</a> to support our efforts.</p>
-        </div>
-      </div>
-    </section>
-    
-  </div> <!-- /container -->
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow dark">Around the platform</p>
+    <h2>More from the OpenMBEE ecosystem.</h2>
+    <div class="cards three">
+      <article class="card"><h3><a href="https://github.com/Open-MBEE/sysmlv2-web-modeler" target="_blank" rel="noopener">SysML v2 Web Modeler</a></h3><p>A standalone Java web service for SysML v2 graphical rendering and textual editing against a SysML v2 API backend.</p></article>
+      <article class="card"><h3><a href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/Models-and-Cookbooks" target="_blank" rel="noopener">OpenSE Cookbook</a></h3><p>A compendium of best practices and lessons learned for performing engineering tasks with modeling languages and tools.</p></article>
+      <article class="card"><h3><a href="https://github.com/Open-MBEE/toaster" target="_blank" rel="noopener">Toaster tutorial</a></h3><p>An executable tutorial on recursive system decomposition with SysML v2 and OpenSysML.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap wild">
+    <div>
+      <p class="eyebrow dark">In the wild</p>
+      <h2>Proven on some of the hardest systems built.</h2>
+      <p>MMS, View Editor and the MDKs have been used on JPL flight projects including Mars 2020, Europa Clipper, Europa Lander and Mars Sample Return, creating and maintaining hundreds of engineering documents from models with millions of elements.</p>
+      <p>The Thirty Meter Telescope SysML model is an industrial-scale application of OpenMBEE, used for system-level behavior simulation and state-dependent power and mass roll-ups, built with an extension of INCOSE's Object Oriented Systems Engineering Method (OOSEM).</p>
+      <p class="links"><a href="impacts.html">See more impacts →</a></p>
+    </div>
+    <aside class="numfocus">
+      <h3>Proud recipient of NumFOCUS fiscal support</h3>
+      <p>OpenMBEE is a fiscally sponsored project of <a href="https://numfocus.org/" target="_blank" rel="noopener">NumFOCUS</a>, a nonprofit dedicated to supporting the open source scientific computing community.</p>
+      <a class="btn primary small" href="https://numfocus.org/donate-to-openmbee" target="_blank" rel="noopener">Support OpenMBEE</a>
+    </aside>
+  </div>
+</section>
+
+<section class="block join">
+  <div class="wrap center">
+    <h2>Build the digital thread with us.</h2>
+    <p class="sub-lead">Anyone is welcome to contribute. There are regular meetings online and in person.</p>
+    <div class="cta center">
+      <a class="btn primary" href="https://github.com/Open-MBEE/open-mbee.github.io/wiki/Contribute" target="_blank" rel="noopener">Contribute</a>
+      <a class="btn ghost" href="participate.html">Participate</a>
+      <a class="btn ghost" href="https://openmbee.slack.com" target="_blank" rel="noopener">Join Slack</a>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div>
+      <a class="brand" href="index.html"><img class="logo-img" src="brand/openmbee-logo-horizontal.svg" alt="OpenMBEE" width="154" height="38"></a>
+      <p class="muted">Connected engineering information for a connected world.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>openmbee (at) openmbee.org</p>
+      <p class="muted small">The NumFOCUS logo is a trademark of <a href="https://numfocus.org/" target="_blank" rel="noopener">NumFOCUS</a>.</p>
+      <p class="muted small sysml-note"><img class="sysml-logo" src="img/sysmlv2-logo.png" alt="" width="36" height="35"><span>SysML&reg; and the SysML v2 logo are trademarks of the <a href="https://www.omg.org/" target="_blank" rel="noopener">Object Management Group</a> (OMG).</span></p>
+    </div>
+    <div>
+      <h4>Build on OpenMBEE</h4>
+      <p><a href="https://github.com/Open-MBEE" target="_blank" rel="noopener">GitHub organization</a><br>
+      <a href="https://flexo-mms-deployment-guide.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener">Flexo MMS docs</a><br>
+      <a href="https://mms-reference-implementation.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener">Execubots MMS docs</a><br>
+      <a href="https://runtime.opensysml.org" target="_blank" rel="noopener">OpenSysML docs</a></p>
+    </div>
+  </div>
+  <div class="wrap license-bar">
+    <span class="lic-label">Dual licensed</span>
+    <a class="lic-pill" href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener license">Apache License 2.0</a>
+    <span class="lic-and" aria-hidden="true">+</span>
+    <a class="lic-pill" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener license">Creative Commons CC BY 4.0</a>
+    <span class="lic-text">Apache 2.0 for code, CC BY 4.0 for media and content. <a href="licenses.html">License details</a></span>
+  </div>
+</footer>
+<script src="js/site.js"></script>
+</body>
+</html>
